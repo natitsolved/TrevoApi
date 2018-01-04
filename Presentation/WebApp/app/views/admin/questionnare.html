@@ -1,0 +1,77 @@
+﻿<div ng-controller="questionnareCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                Questionnare
+                <!--<small>advanced tables</small>-->
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="pull-left">
+                                <h3 class="box-title">Questionnare List</h3>
+                            </div>
+                            <div class="pull-right">
+                                <a ui-sref="admin.questionnaireadd({questionId:'add'})" class="btn btn-primary">Add Question</a>
+                            </div>
+
+                        </div>
+
+                        <div class="box-body">
+                            <table id="questionnareList" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th class="hidden-phone">Question</th>
+                                       <th class="hidden-phone">Input Type</th>
+                                        <th class="hidden-phone">No of Inputs</th>
+                                        <th>Action</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr ng-if="allQuestions" ng-repeat="item in allQuestions">
+                                        <td>{{item.Questions}}</td>
+                                        <td>{{item.InputType}}</td>
+                                        <td>{{item.NoOfInputs}}</td>
+                                        <td>
+                                            <a ui-sref="admin.questionnaireadd({questionId:item.QId})">
+                                                <i class="fa fa-2x fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:;" ng-click="deleteQuestion(item.QId)">
+                                                <i class="fa fa-2x fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                    <tr ng-if="!allQuestions">
+                                        <td colspan="5">No Result Found</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
+    </div>
+
+</div>

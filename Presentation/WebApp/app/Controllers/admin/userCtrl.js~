@@ -1,0 +1,195 @@
+'use strict';
+/** 
+ * controllers used for the login
+ */
+app.controller('userCtrl', function ($rootScope, $scope, $http,
+                                     $location, myAuth,
+                                     $cookieStore,$timeout,
+                                     userService,DTOptionsBuilder,
+                                     DTColumnBuilder,$q,DTColumnDefBuilder)
+{
+
+    myAuth.updateAdminUserinfo(myAuth.getAdminAuthorisation());
+    $scope.loggedindetails = myAuth.getAdminNavlinks();
+    if(!$scope.loggedindetails){
+        $location.path('/adminlogin');
+    }
+    $scope.viewUser = "view";
+    var vm = this;
+    vm.userList = {};
+    //vm.dtOptions = DTOptionsBuilder.newOptions().withPaginationType('full_numbers');
+    vm.dtOptions =DTOptionsBuilder.fromFnPromise(function() {
+
+        var defer = $q.defer();
+	alert(11);
+        userService.getAllUsers($scope.loggedindetails.accesstoken).then(function(result) {
+            defer.resolve(result.ResponseMessage);
+            vm.userList=result.ResponseMessage.data;
+
+        });
+        return defer.promise;
+    }).withPaginationType('full_numbers').withBootstrap();
+    vm.dtColumnDefs = [
+        DTColumnDefBuilder.newColumnDef(0),
+        DTColumnDefBuilder.newColumnDef(1),
+        DTColumnDefBuilder.newColumnDef(2).notSortable()
+
+    ];
+
+    vm.addPerson = addPerson;
+    vm.modifyPerson = modifyPerson;
+    vm.removePerson = removePerson;
+    $scope.GetAllUser=function(){
+
+        userService.getAllUsers($scope.loggedindetails.accesstoken).then(function(result) {
+            $scope.userList=result.ResponseMessage;
+        });
+
+    }
+	$scope.GetAllUser();
+
+    function addPerson() {
+        vm.persons.push(angular.copy(vm.person2Add));
+        vm.person2Add = _buildPerson2Add(vm.person2Add.id + 1);
+    }
+    function modifyPerson(index) {
+        vm.persons.splice(index, 1, angular.copy(vm.person2Add));
+        vm.person2Add = _buildPerson2Add(vm.person2Add.id + 1);
+    }
+    function removePerson(index) {
+        vm.persons.splice(index, 1);
+    }
+
+   /* var vm = this;
+    vm.message = '';
+    vm.edit = edit;
+    vm.delete = deleteRow;
+    vm.dtInstance = {};
+    vm.persons = {};
+    vm.dtOptions =DTOptionsBuilder.fromFnPromise(function() {
+        var defer = $q.defer();
+        userService.getAllUsers($scope.loggedindetails.accesstoken).then(function(result) {
+            defer.resolve(result.ResponseMessage);
+        });
+        return defer.promise;
+    }).withPaginationType('full_numbers').withBootstrap();
+    vm.dtColumns = [
+        DTColumnBuilder.newColumn(null).withTitle('S. No.').renderWith(renderIndex),
+        DTColumnBuilder.newColumn('_id').withTitle('ID'),
+        DTColumnBuilder.newColumn('name').withTitle('First name'),
+        DTColumnBuilder.newColumn(null).withTitle('Actions').notSortable()
+            .renderWith(actionsHtml)
+    ];
+
+    function edit(person) {
+        alert()
+        vm.message = 'You are trying to edit the row: ' + JSON.stringify(person);
+        // Edit some data and call server to make changes...
+        // Then reload the data so that DT is refreshed
+        vm.dtInstance.reloadData();
+    }
+    function deleteRow(person) {
+        vm.message = 'You are trying to remove the row: ' + JSON.stringify(person);
+        // Delete some data and call server to make changes...
+        // Then reload the data so that DT is refreshed
+        vm.dtInstance.reloadData();
+    }
+    function createdRow(row, data, dataIndex) {
+        // Recompiling so we can bind Angular directive to the DT
+        $compile(angular.element(row).contents())($scope);
+    }
+    function actionsHtml(data, type, full, meta) {
+        vm.persons[data._id] = data;
+        return '<button class="btn btn-warning" ng-click="edit(persons[' + data._id + '])">' +
+            '   <i class="fa fa-edit"></i>' +
+            '</button>&nbsp;' +
+            '<button class="btn btn-danger" ng-click="deleteRow(persons[' + data._id + '])" )"="">' +
+            '   <i class="fa fa-trash-o"></i>' +
+            '</button>';
+    }
+    function renderIndex(data, type, full, meta) {
+        return meta.row+1;
+    }*/
+
+
+
+
+    /*var vm = this;
+
+    vm.dtOptions = DTOptionsBuilder.fromFnPromise(function() {
+        var defer = $q.defer();
+        userService.getAllUsers($scope.loggedindetails.accesstoken).then(function(result) {
+            defer.resolve(result.ResponseMessage);
+        });
+        return defer.promise;
+    }).withPaginationType('full_numbers').withBootstrap();/!*.withButtons([
+        'columnsToggle',
+        'colvis',
+        'copy',
+        'print',
+        'excel',
+        {
+            text: 'Reload',
+            key: '1',
+            action: function (e, dt, node, config) {
+                //reloadData();
+            }
+        }
+    ]);*!/
+
+    vm.dtColumns = [
+        DTColumnBuilder.newColumn(null).withTitle('S. No.').renderWith(renderIndex),
+        DTColumnBuilder.newColumn('_id').withTitle('ID'),
+        DTColumnBuilder.newColumn('name').withTitle('First name'),
+        DTColumnBuilder.newColumn(-1).withTitle('Action').renderWith(function(data, type, full) {
+            return '<a href="#/admin/usermanage/'+full._id+'" class="btn btn-info"><i class="fa fa-edit"></i></a> ' +
+                '<button ng-click="showCase.deleteUser(\'' + full._id + '\');" class="btn btn-danger"><i class="fa fa-close"></i></button>';
+        })
+
+    ];
+    function renderIndex(data, type, full, meta) {
+        return meta.row+1;
+    }
+
+
+    function deleteUser (c_id) {
+        alert(c_id);
+        if ( window.confirm("Want to delete?") ) {
+            $http({
+                method: "DELETE",
+                url: $rootScope.serviceurl + "deleteUser/"+c_id,
+                //data: {"name": $scope.item.name,"is_active": $scope.item.is_active},
+                //headers: {'Content-Type': 'application/json'},
+            }).success(function (data) {
+                console.log(data);
+                $scope.viewUser();
+                //$scope.allcat = data.category;
+                //console.log($scope.allcat);
+            });
+        }else{
+
+        }
+
+    }
+    $scope.userEdit = function () {
+        console.log(12);
+    }
+
+    $scope.addUser = function () {
+        //alert(13);
+        $scope.item={
+            "id":'',
+            "title": '',
+            "image":'',
+            //"is_active":0,
+            "image_url":''
+        };
+        $scope.viewUser='edit';
+    }*/
+
+
+
+         
+   
+});
+

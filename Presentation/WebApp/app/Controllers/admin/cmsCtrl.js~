@@ -1,0 +1,158 @@
+'use strict';
+/**
+ * controllers used for the login
+ */
+app.controller('cmsCtrl', function ($rootScope, $scope, $http, $location, myAuth, $cookieStore,$timeout,cmsService) {
+
+    myAuth.updateAdminUserinfo(myAuth.getAdminAuthorisation());
+    $scope.loggedindetails = myAuth.getAdminNavlinks();
+    //console.log($scope.loggedindetails);
+    if(!$scope.loggedindetails){
+        $location.path('/adminlogin/signin');
+    }
+
+    $scope.viewCms = function () {
+        cmsService.getAllcms().then(
+            function (data) {
+
+                /*if(data.ResponseDetails.ResponseStatus=="10") {
+                 messageService.FlashMessage("success", data.ResponseMessage);
+                 }
+                 else
+                 {
+                 messageService.FlashMessage("danger", data.ResponseMessage);
+                 }*/
+                if(data.ResponseDetails.ResponseCode == 'Success') {
+                    $scope.allcms = data.ResponseMessage;
+			console.log($scope.allcms);
+                    $timeout(function () {
+
+                        $scope.table = angular.element('#cmsList').DataTable({
+                            "paging": true,
+                            "lengthChange": false,
+                            "searching": true,
+                            "ordering": true,
+                            "info": true,
+                            "autoWidth": false
+                        });
+                    }, 3000, false);
+                }
+            },
+            function (errorMessage) {
+                //messageService.FlashMessage("danger", errorMessage);
+            });
+        $scope.cmsView='view';
+    }
+    $scope.viewCms();
+
+    $scope.editCms = function (params) {
+     $scope.item = angular.copy(params);
+     $scope.item.image = '';
+     $scope.item.image_url = params.image;
+     $scope.cmsView='edit';
+     }
+
+     $scope.addCms = function () {
+     //alert(13);
+     $scope.item={
+     "id":'',
+     "name": '',
+     "content": '',
+     "meta_tag":'',
+     "meta_keyword":'',
+     "meta_description":'',
+     "is_active":1,
+     };
+     $scope.cmsView='edit';
+     }
+
+     $scope.cancelCms = function () {
+     $scope.viewCms();
+     }
+
+     $scope.saveCms = function () {
+
+     //return false;
+     /*if($scope.item.id == '') {
+         $scope.item.slug = $scope.item.name.split(' ').join('-')
+         console.log($scope.item);
+         return false;
+     $http({
+     method: "POST",
+     url: $rootScope.serviceurl + "cms",
+     data: $scope.item,
+     headers: {'Content-Type': 'application/json'},
+     }).success(function (data) {
+     console.log(data);
+     $scope.viewCms();
+     //$scope.allcat = data.category;
+     //console.log($scope.allcat);
+     });
+     }else{
+     $http({
+     method: "PUT",
+     url: $rootScope.serviceurl + "updateCms",
+     data: $scope.item,
+     headers: {'Content-Type': 'application/json'},
+     }).success(function (data) {
+     console.log(data);
+     $scope.viewCms();
+     //$scope.allcat = data.category;
+     //console.log($scope.allcat);
+     });
+     }*/
+     if($scope.item.id == '') {
+         $scope.item.slug = $scope.item.name.split(' ').join('-');
+         cmsService.cmsAdd(item,$scope.loggedindetails.accesstoken).then(
+             function (data) {
+
+                 /*if(data.ResponseDetails.ResponseStatus=="10") {
+                  messageService.FlashMessage("success", data.ResponseMessage);
+                  }
+                  else
+                  {
+                  messageService.FlashMessage("danger", data.ResponseMessage);
+                  }*/
+                 if(data.ResponseDetails.ResponseCode == 'Success') {
+                     //$scope.allcms = data.ResponseMessage;
+
+                 }
+             },
+             function (errorMessage) {
+                 //messageService.FlashMessage("danger", errorMessage);
+             });
+     }else{
+
+     }
+
+     }
+
+    $scope.deleteCms = function (c_id) {
+        //alert(c_id);
+        if ( window.confirm("Want to delete?") ) {
+            $http({
+                method: "DELETE",
+                url: $rootScope.serviceurl + "deleteCms/"+c_id,
+                //data: {"name": $scope.item.name,"is_active": $scope.item.is_active},
+                //headers: {'Content-Type': 'application/json'},
+            }).success(function (data) {
+                console.log(data);
+                $scope.viewCms();
+                //$scope.allcat = data.category;
+                //console.log($scope.allcat);
+            });
+        }else{
+
+        }
+
+    }
+
+
+
+
+    //$scope.getLoginDetails();
+
+
+
+});
+

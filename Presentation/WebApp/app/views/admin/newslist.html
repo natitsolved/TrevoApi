@@ -1,0 +1,104 @@
+<div ng-controller="newslistCtrl">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div ng-if="newView == 'view'">
+                <header class="panel-heading">
+                    News
+                        <span class="tools pull-right">
+                            <a class="fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="fa fa-times" href="javascript:;"></a>
+                         </span>
+                </header>
+                <div class="panel-body">
+                    <div class="btn-group">
+                        <button class="btn btn-primary" id="editable-sample_new" ng-click ="addCategory()">
+                            Add News
+                        </button>
+                    </div>
+                    <table id="newsList" class="table  table-hover general-table">
+                        <thead>
+                        <tr>
+                            <th> Id</th>
+                            <th class="hidden-phone">Title</th>
+                            <th class="hidden-phone">Date</th>
+                            <th class="hidden-phone">Is Active</th>
+                            <th>Action</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <tr ng-if="allnews" ng-repeat="item in allnews">
+                            <td>
+                                {{item.id}}
+                            </td>
+                            <td >{{item.title}}</td>
+                            <td >{{item.date}}</td>
+                            <td >{{item.is_active==1?'Active':'Inactive'}}</td>
+                            <td ><a class="btn btn-default edit" href="javascript:;" ng-click ="editNews(item)">Edit</a>
+                                <a class="btn btn-default delete" href="javascript:;" ng-click="deleteNews(item.id)"
+                                   >Delete</a></td>
+
+                        </tr>
+                        <tr ng-if="!allnews">
+                            <td colspan="6">No Result Found</td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+
+                <div ng-if="newView == 'edit'">
+                    <header class="panel-heading">
+                        News
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" ng-submit="saveNews()" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputName">Title</label>
+                                <input type="text" placeholder="Enter Title"  id="exampleInputName" ng-model="item.title" class="form-control">
+                                <input type="hidden"  ng-model="item.id" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Description</label>
+                                <textarea placeholder="Enter Description"  id="description" ng-model="item.description" ckeditor class="form-control"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Image</label>
+                                <input type="file"  id="image" ng-model="item.image" base-sixty-four-input>
+                                <img src="{{item.image_url}}" ng-if="item.image_url" width="200">
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="item.is_banner" ng-true-value="1" ng-false-value="0"> Is Banner
+                                </label>
+                            </div>
+
+                            <!--<div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>-->
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="item.is_active" ng-true-value="1" ng-false-value="0"> Is Active
+                                </label>
+                            </div>
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-danger" type="button" ng-click="cancelNews()">Cancel</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,11 @@
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Services.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Services.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Data.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\EntityFramework.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Core.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\NSBOCInspection.Data.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Release\EntityFramework.xml
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Release\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Release\NSBOCInspection.Services.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Release\NSBOCInspection.Services.pdb

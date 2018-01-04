@@ -1,0 +1,86 @@
+﻿<div ng-controller="questionnareCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                Doctor
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+
+        <section class="content">
+            <div class="row">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+
+                    </div>
+                    
+                    <form name="userForm" ng-submit="save();" >
+                        <div class="box-body">
+                            <div class="col-xs-12">
+                                <div class="form-group" show-errors>
+                                    <label for="question" ng-class="{ 'has-error': userForm.Question.$invalid }">Question</label>
+                                    <input type="text" class="form-control" name="Questions" ng-model="item.Questions" id="question" placeholder="Enter Question" required>
+                                </div>
+                                <div class="form-group">
+                                    <label  ng-class="{ 'has-error': userForm.InputType.$invalid }">Select Input Type:</label>
+                                    <select name="singleSelect" ng-model="item.InputType" required ng-change="onInputTypeChange(item.InputType);" class="form-control">
+                                        <option value="0">Text Box</option>
+                                        <option value="1">Check Box</option>
+                                        <option value="2">Radio Button</option>
+                                    </select>
+                                </div>
+                                <div class="form-group" show-errors ng-show="isShow">
+                                    <label for="NoOfInputs" ng-class="{ 'has-error': userForm.NoOfInputs.$invalid }">How many of the chosen Input Types do you want?</label>
+                                    <input type="text" class="form-control" name="NoOfInputs" ng-model="item.NoOfInputs" id="NoOfInputs"   ng-keyup="createInputTypes();">
+                                </div>
+                                
+                                <div class="form-group" show-errors  ng-show="isShow">
+                                    <label for="IsMultipleAnswerAllowed" ng-class="{ 'has-error': userForm.IsMultipleAnswerAllowed.$invalid }">Will the question allow multiple selections?</label>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" ng-model="item.IsMultipleAnswerAllowed" value="1">
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label>
+                                            <input type="radio" ng-model="item.IsMultipleAnswerAllowed" value="0">
+                                            No
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form-group" ng-show="isShow">
+                                    <label>Give your options for the questions.</label>
+                                    <div  ng-repeat="choice in choices track by $index">
+                                        <input type="text" class="form-control"  ng-model="option[$index]" /> 
+                                        <br />
+                                    </div>
+                                </div>
+                               
+                            </div>
+                          
+
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" style="margin-left: 394px;">Submit</button>
+                            &nbsp;
+                            <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            <br>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+</div>

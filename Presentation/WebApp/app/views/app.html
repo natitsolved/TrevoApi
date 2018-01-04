@@ -1,0 +1,142 @@
+<link rel="stylesheet" type="text/css" href="app/assets/css/reset.css" />
+<link rel="stylesheet" href="app/assets/css/dx.common.css" />
+<link rel="stylesheet" href="app/assets/css/dx.light.css" />
+<link rel="stylesheet" href="app/assets/css/index.css" />
+<link rel="stylesheet" href="app/assets/css/menu.css" />
+<link rel="stylesheet" type="text/css" href="app/assets/css/phone.css" media="screen and (max-width: 739px)"/>
+<link rel="stylesheet" type="text/css" href="bower_components/ngToast/ngToast.min.css" />
+
+
+<link rel="stylesheet" type="text/css" href="app/assets/css/site.css" media="screen and (min-width: 740px)" />
+
+<div data-ng-include=" 'app/views/partials/header.html' " ></div>
+    <div id="page">
+        
+        <div class="dx-clearfix" data-ng-include=" 'app/views/partials/maincontent.html' " ></div>
+        <div data-ng-include=" 'app/views/partials/footer.html' " ></div>
+     </div>
+<div ng-controller="mobileMenuCtrl">
+    <div class="m-app-menu tablet-hide">
+        <ul>
+            <li ui-sref-active="active">
+                <a ui-sref="frontend.index" ><img src="app/assets/Images/MobileIcons/home.png" alt="" />
+                    <p>Home</p></a>
+            </li>
+            <li ui-sref-active="active"><a href="javascript:;"><img src="app/assets/Images/MobileIcons/vouture.png" alt="" />
+                <p>Voucher</p></a>
+                <ul>
+                    <li><a ui-sref="frontend.voucher">Menu Voucher</a></li>
+                    <li><a ui-sref="frontend.paymentVoucher">Payment Voucher</a></li>
+                </ul>
+            </li>
+            <li ui-sref-active="active"><a ui-sref="frontend.membership" ><img src="app/assets/Images/MobileIcons/membership.png" alt="" />
+                <p>Membership</p></a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="frontend.marketplace" ><img src="app/assets/Images/MobileIcons/market_place.png" alt="" />
+                    <p>Marketplace</p></a>
+            </li>
+        </ul>
+    </div>
+<div id="menu">
+    <ul class="tablet-hide" ng-init="getLoginDetails()">
+        <form ng-submit="searchAll()">
+        <li>
+            <div class="select-box"><select ng-model="type">
+            <option value="">Select Type</option>
+            <option value="promo">Promo</option>
+            <option value="restaurant">Restaurant</option>
+            <option value="event">Event</option>
+            <option value="news">News</option>
+        </select>
+        </div>
+        </li>
+
+    	<li><input type="text" placeholder="Search Keyword" ng-model="keyword"></li>
+        </form>
+
+        <div id='cssmenu'>
+            <ul>
+        <li><a onclick="menuClick()" title="Home" ui-sref="frontend.index">Home</a></li>
+        <li class="has-sub"><a href=""><span>Restaurant Category</span></a>
+            <ul>
+                <li ng-repeat="catdetail in catInfo"><a onclick="menuClick()" title="Category" ui-sref="frontend.refinerestaurent({ categoryId: catdetail.id })"><img src="{{catdetail.icon_url}}" width="20" height="20" ng-if="catdetail.icon_url"/>{{catdetail.name}}</a></li>
+            </ul></li>
+        <li class="has-sub active"><a href="" title="Voucher"><span>Voucher</span></a>
+            <ul style="display: block;">
+                <li><a onclick="menuClick()" title="My Voucher" ui-sref="frontend.voucher">Menu Voucher</a></li>
+                <li><a onclick="menuClick()" title="My Membership" ui-sref="frontend.paymentVoucher">Payment Voucher</a></li>
+
+            </ul>
+        </li>
+
+        <li><a onclick="menuClick()" title="Membership" ui-sref="frontend.membership">Membership</a></li>
+
+        <li><a onclick="menuClick()" title="Marketplace" ui-sref="frontend.marketplace">Marketplace</a></li>
+        <li><a onclick="menuClick()" title="News" ui-sref="frontend.news">News</a></li>
+            </ul>
+        <ul ng-show="!showMember">
+        <li><a onclick="menuClick()" title="Login" ui-sref="frontend.login" >Login</a></li>
+        <li><a onclick="menuClick()" title="Register" ui-sref="frontend.register">Register</a></li>
+        </ul>
+        <ul ng-show="showMember">
+        <li><a onclick="menuClick()" title="Login" ui-sref="frontend.profile" >My Profile</a></li>
+            <li class="has-sub active" ng-if="loggedindetails.user_type_id != 3"><a href=""><span>Member</span></a>
+            <ul style="display: block;">
+                <li><a onclick="menuClick()" title="My Voucher" ui-sref="frontend.allvoucher">My Voucher</a></li>
+                <li><a onclick="menuClick()" title="My Membership" ui-sref="frontend.mymembership">My Membership</a></li>
+                <li><a onclick="menuClick()" title="My Account" ui-sref="frontend.profile">My Account</a></li>
+                <li><a onclick="menuClick()" title="My Points" ui-sref="frontend.mypoints">My Points</a></li>
+                <li><a onclick="menuClick()" title="Event Offer" ui-sref="frontend.myevent">Event Offer</a></li>
+                <li><a onclick="menuClick()" title="Queuing" ui-sref="frontend.queuing">Queuing</a></li>
+                <li><a onclick="menuClick()" title="Pre-Order" ui-sref="frontend.preorder">Pre-Order</a></li>
+                <li><a onclick="menuClick()" title="Feedback" ui-sref="frontend.feedback">Feedback</a></li>
+                <li><a onclick="menuClick()" title="Setting" ui-sref="frontend.setting">Setting</a></li>
+                </ul>
+            </li>
+            <li class="has-sub active" ng-if="loggedindetails.user_type_id == 3"><a href=""><span>Merchant</span></a>
+                <ul style="display: block;">
+                    <li ng-if="user_details.merchant_id"><a href="http://52.39.33.188/Member_Ship/MasterData/member_master_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i>Manage Member</a></li>
+                    <li ><a onclick="menuClick()" ui-sref="frontend.purchasedmembrship"><i class="fa fa-user"></i>Purchased Membership</a></li>
+                    <li><a onclick="menuClick()" ui-sref="frontend.merchantmenu"><i class="fa fa-user"></i> All Menu</a></li>
+                    <li><a onclick="menuClick()" ui-sref="frontend.merchantmenucategories"><i class="fa fa-user"></i>Categories</a></li>
+                    <li><a onclick="menuClick()" ui-sref="frontend.merchantrestaurants"><i class="fa fa-user"></i> Restaurants</a></li>
+                    <li><a onclick="menuClick()" ui-sref="frontend.merchantoutlets"><i class="fa fa-user"></i> Outlets</a></li>
+                    <li><a onclick="menuClick()" href="http://52.39.33.188/Member_Ship/MasterData/Promotion_Header_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i> Memberships</a></li>
+                    <li><a onclick="menuClick()" ui-sref="frontend.merchantnews"><i class="fa fa-user"></i> News</a></li>
+                </ul>
+            </li>
+            <li><a onclick="menuClick()" title="Logout" ng-click="userLogout()" title="Logout">Logout</a></li>
+        </ul>
+
+</div>
+    </ul>
+</div>
+
+</div>
+<script>
+    ( function( $ ) {
+        $( document ).ready(function() {
+            $('#cssmenu > ul > li > a').click(function() {
+                $('#cssmenu li').removeClass('active');
+                $(this).closest('li').addClass('active');
+                var checkElement = $(this).next();
+                if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+                    $(this).closest('li').removeClass('active');
+                    checkElement.slideUp('normal');
+                }
+                if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+                    $('#cssmenu ul ul:visible').slideUp('normal');
+                    checkElement.slideDown('normal');
+                }
+                if($(this).closest('li').find('ul').children().length == 0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+        });
+    } )( jQuery );
+</script>
+
+

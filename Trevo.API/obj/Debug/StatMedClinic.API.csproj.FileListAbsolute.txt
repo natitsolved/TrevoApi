@@ -1,0 +1,561 @@
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll.config
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\XmlDocument.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\AWSSDK.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.xmlworker.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Web.Infrastructure.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\MvcRazorToPdf.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Owin.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Cors.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Unity.WebApi.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\WebGrease.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\AWSSDK.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.xml
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.pdb
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.dll
+E:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll.config
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\XmlDocument.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\AWSSDK.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\EntityFramework.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\itextsharp.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\itextsharp.xmlworker.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\MvcRazorToPdf.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Owin.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Cors.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Unity.WebApi.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\WebGrease.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\AWSSDK.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\EntityFramework.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\itextsharp.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll.config
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\StatMedClinic.API.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\XmlDocument.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\AWSSDK.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.xmlworker.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\MvcRazorToPdf.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Owin.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Cors.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Unity.WebApi.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\WebGrease.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Core.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Data.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\AWSSDK.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\EntityFramework.SqlServer.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\itextsharp.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Newtonsoft.Json.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Net.Http.Formatting.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Cors.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Owin.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.Tracing.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Helpers.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Http.WebHost.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Mvc.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Optimization.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.Razor.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\System.Web.WebPages.Razor.xml
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\bin\Antlr3.Runtime.pdb
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.dll
+D:\Pragati\Projects\statmedclinic\NSBOCInspection.API\obj\Debug\StatMedClinic.API.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\StatMedClinic.API.dll.config
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\StatMedClinic.API.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\StatMedClinic.API.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\XmlDocument.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Antlr3.Runtime.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\EntityFramework.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\EntityFramework.SqlServer.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Newtonsoft.Json.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Core.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Data.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Services.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Owin.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Formatting.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Cors.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.Cors.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.WebHost.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Mvc.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Optimization.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Core.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Data.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Antlr3.Runtime.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\EntityFramework.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\EntityFramework.SqlServer.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Newtonsoft.Json.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Formatting.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Helpers.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.Cors.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.WebHost.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Mvc.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Optimization.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Razor.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.Razor.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\obj\Debug\StatMedClinic.API.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\obj\Debug\StatMedClinic.API.pdb
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Hosting.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Extensions.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Primitives.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Helpers.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.Owin.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Razor.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.Deployment.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.WebPages.Razor.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Unity.WebApi.dll
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\Microsoft.Owin.Hosting.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Extensions.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Net.Http.Primitives.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\System.Web.Http.Owin.xml
+D:\Pragati\Projects\StatMedClinicTFS\NSBOCInspection.API\bin\WebGrease.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\StatMedClinic.API.dll.config
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\StatMedClinic.API.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\StatMedClinic.API.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\XmlDocument.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Antlr3.Runtime.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\EntityFramework.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\EntityFramework.SqlServer.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Hosting.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Newtonsoft.Json.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Core.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Data.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Services.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Owin.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Extensions.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Formatting.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Primitives.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Cors.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Helpers.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.Cors.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.Owin.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.WebHost.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Mvc.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Optimization.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Razor.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Unity.WebApi.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\WebGrease.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Core.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Data.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\NSBOCInspection.Services.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Antlr3.Runtime.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\EntityFramework.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\EntityFramework.SqlServer.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Hosting.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Newtonsoft.Json.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Extensions.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Formatting.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Net.Http.Primitives.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Helpers.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.Cors.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.Owin.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Http.WebHost.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Mvc.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Optimization.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.Razor.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\obj\Debug\StatMedClinic.API.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\StatMedClinic.API\obj\Debug\StatMedClinic.API.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.dll.config
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\XmlDocument.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Antlr3.Runtime.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.SqlServer.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Hosting.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Newtonsoft.Json.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Data.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Services.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Owin.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Extensions.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Formatting.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Primitives.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Cors.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Helpers.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Cors.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Owin.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.WebHost.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Mvc.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Optimization.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Razor.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Deployment.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Razor.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Unity.WebApi.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\WebGrease.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Core.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Data.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Services.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Antlr3.Runtime.pdb
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.SqlServer.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Hosting.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\Newtonsoft.Json.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Extensions.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Formatting.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Primitives.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Helpers.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Cors.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Owin.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.WebHost.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Mvc.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Optimization.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Razor.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Deployment.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Razor.xml
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.dll
+D:\Pragati\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.dll.config
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\StatMedClinic.API.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\XmlDocument.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Antlr3.Runtime.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.SqlServer.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Hosting.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Newtonsoft.Json.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Core.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Data.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Services.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Owin.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Extensions.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Formatting.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Primitives.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Cors.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Helpers.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Cors.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Owin.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.WebHost.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Mvc.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Optimization.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Razor.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Razor.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Unity.WebApi.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\WebGrease.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Core.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Data.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\NSBOCInspection.Services.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Antlr3.Runtime.pdb
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\EntityFramework.SqlServer.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Hosting.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\Newtonsoft.Json.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Extensions.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Formatting.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Net.Http.Primitives.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Helpers.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Cors.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.Owin.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Http.WebHost.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Mvc.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Optimization.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.Razor.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\bin\System.Web.WebPages.Razor.xml
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.csprojResolveAssemblyReference.cache
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.dll
+D:\Projects\StatMedClinicFinalTFS\StatMedClinic.API\obj\Debug\StatMedClinic.API.pdb

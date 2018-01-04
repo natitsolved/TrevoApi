@@ -1,0 +1,5 @@
+D:\Projects\Trevo\Library\Trevo.Core\bin\Release\Trevo.Core.dll
+D:\Projects\Trevo\Library\Trevo.Core\bin\Release\Trevo.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Core\obj\Release\Trevo.Core.dll
+D:\Projects\Trevo\Library\Trevo.Core\obj\Release\Trevo.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Core\obj\Release\Trevo.Core.csprojResolveAssemblyReference.cache

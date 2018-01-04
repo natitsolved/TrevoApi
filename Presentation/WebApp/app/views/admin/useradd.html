@@ -1,0 +1,219 @@
+<div ng-controller="useraddCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                User
+            </h1>
+            <!--<ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">{{title}}</a></li>
+                <li class="active">Data tables</li>
+            </ol>-->
+            <div ncy-breadcrumb></div>
+        </section>
+
+        <!-- Main content -->
+       <!-- <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+
+                        </div>
+                        &lt;!&ndash; /.box-header &ndash;&gt;
+                        &lt;!&ndash; form start &ndash;&gt;
+                        <form  name="userForm">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="role_id" ng-class="{ 'has-error': userForm.userrole.$invalid }">User Role</label>
+                                    <select class="form-control" id="role_id" name="userrole" ng-model="item.userrole"  required>
+                                        <option value="">&#45;&#45;Select User Role&#45;&#45;</option></option>
+                                        <option ng-repeat="role in allroleusers | orderBy:'Name' " value="{{role.Id}}" ng-selected="item.userrole">{{role.Name}}</option>
+                                    </select>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputName" ng-class="{ 'has-error': userForm.name.$invalid }">User Name</label>
+                                    <input type="text" class="form-control" name="name" ng-model="item.name" id="exampleInputName" placeholder="Enter User Name" required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputEmail1" ng-class="{ 'has-error': userForm.mailid.$invalid }">Email</label>
+                                    <input type="email" class="form-control" name="mailid" ng-model="item.mailid" id="exampleInputEmail1" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group" show-errors ng-if="IsPassword">
+                                    <label for="exampleInputPassword1" ng-class="{ 'has-error': userForm.password.$invalid }">Password</label>
+                                    <input type="password" class="form-control" name="password" ng-model="item.password" id="exampleInputPassword1" placeholder="Password" required minlength="6">
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.phoneno.$invalid }">Phone</label>
+                                    <input type="tel" class="form-control" name="phoneno" ng-model="item.phoneno" id="exampleInputPhone" placeholder="Enter Phone"  required maxlength="10">
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.firstName.$invalid }">First Name</label>
+                                    <input type="text" class="form-control" name="firstName" ng-model="item.firstName" id="examplefirstName" placeholder="Enter First Name"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.lastName.$invalid }">Last Name</label>
+                                    <input type="text" class="form-control" name="lastName" ng-model="item.lastName" id="examplelastName" placeholder="Enter Last Name"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.address.$invalid }">Address</label>
+                                    <textarea placeholder="Address" rows="3" name="address" ng-model="item.address" class="form-control" required></textarea>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.city.$invalid }">City</label>
+                                    <input type="text" class="form-control" name="city" ng-model="item.city" id="exampleCity" placeholder="Enter City"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.state.$invalid }">State</label>
+                                    <input type="text" class="form-control" name="state" ng-model="item.state" id="exampleState" placeholder="Enter State"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.zipCode.$invalid }">Zip Code</label>
+                                    <input type="text" class="form-control" name="zipCode" ng-model="item.zipCode" id="examplezipCodee" placeholder="Enter Zip Code" maxlength="6"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.gender.$invalid }">Gender</label>
+                                    <input type="text" class="form-control" name="gender" ng-model="item.gender" id="exampleGender" placeholder="Enter Gender"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.dateOfBirth.$invalid }">Date Of Birth</label>
+                                    <input type="date" class="form-control" name="dateOfBirth" ng-model="item.dateOfBirth" value="{{ item.dateOfBirth }}"  id="exampledateOfBirth"   required>
+                                </div>
+
+
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isactive" ng-model="item.isactive" ng-disabled="!IsPassword"> Is Active
+                                    </label>
+                                </div>
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isDeleted" ng-model="item.isDeleted" ng-disabled="!IsPassword"> Is Deleted
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="isLoggedIn" ng-model="item.isLoggedIn" disabled> Is Logged In
+                                    </label>
+                                </div>
+                            </div>
+                            &lt;!&ndash; /.box-body &ndash;&gt;
+
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary" ng-click="save()">Submit</button>
+                                &nbsp;
+                                <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            </div>
+                        </form>
+                    </div>
+                    </div>
+                </div>
+            </section>-->
+        <section class="content">
+            <div class="row">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+
+                        </div>
+                        <!-- /.box-header -->
+                        <!-- form start -->
+                        <form  name="userForm">
+                            <div class="box-body">
+                                <div class="col-xs-6">
+                                    <div class="form-group">
+                                        <label for="role_id" ng-class="{ 'has-error': userForm.userrole.$invalid }">User Role</label>
+                                        <select class="form-control" id="role_id" name="userrole" ng-model="item.userrole"  required>
+                                            <option value="">--Select User Role--</option></option>
+                                            <option ng-repeat="role in allroleusers | orderBy:'Name' " value="{{role.Id}}" ng-selected="item.userrole">{{role.Name}}</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label for="exampleInputName" ng-class="{ 'has-error': userForm.name.$invalid }">User Name</label>
+                                        <input type="text" class="form-control" name="name" ng-model="item.name" id="exampleInputName" placeholder="Enter User Name" required>
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label for="exampleInputEmail1" ng-class="{ 'has-error': userForm.mailid.$invalid }">Email</label>
+                                        <input type="email" class="form-control" name="mailid" ng-model="item.mailid" id="exampleInputEmail1" placeholder="Enter email" required>
+                                    </div>
+                                    <div class="form-group" show-errors ng-if="IsPassword">
+                                        <label for="exampleInputPassword1" ng-class="{ 'has-error': userForm.password.$invalid }">Password</label>
+                                        <input type="password" class="form-control" name="password" ng-model="item.password" id="exampleInputPassword1" placeholder="Password" required minlength="6">
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.phoneno.$invalid }">Phone</label>
+                                        <input type="tel" class="form-control" name="phoneno" ng-model="item.phoneno" id="exampleInputPhone" placeholder="Enter Phone"  required maxlength="10">
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.firstName.$invalid }">First Name</label>
+                                        <input type="text" class="form-control" name="firstName" ng-model="item.firstName" id="examplefirstName" placeholder="Enter First Name"  required>
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.lastName.$invalid }">Last Name</label>
+                                        <input type="text" class="form-control" name="lastName" ng-model="item.lastName" id="examplelastName" placeholder="Enter Last Name"  >
+                                    </div>
+                                    <div class="form-group" show-errors>
+                                        <label ng-class="{ 'has-error': userForm.address.$invalid }">Address</label>
+                                        <textarea placeholder="Address" rows="3" name="address" ng-model="item.address" class="form-control" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.city.$invalid }">City</label>
+                                    <input type="text" class="form-control" name="city" ng-model="item.city" id="exampleCity" placeholder="Enter City"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.state.$invalid }">State</label>
+                                    <input type="text" class="form-control" name="state" ng-model="item.state" id="exampleState" placeholder="Enter State"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.zipCode.$invalid }">Zip Code</label>
+                                    <input type="text" class="form-control" name="zipCode" ng-model="item.zipCode" id="examplezipCodee" placeholder="Enter Zip Code" maxlength="6"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.gender.$invalid }">Gender</label>
+                                    <input type="text" class="form-control" name="gender" ng-model="item.gender" id="exampleGender" placeholder="Enter Gender"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.dateOfBirth.$invalid }">Date Of Birth</label>
+                                    <input type="date" class="form-control" name="dateOfBirth" ng-model="item.dateOfBirth"   id="exampledateOfBirth"   required>
+                                   <!-- <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>-->
+                                </div>
+
+
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isactive" ng-model="item.isactive" ng-disabled="!IsPassword"> Is Active
+                                    </label>
+                                </div>
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isDeleted" ng-model="item.isDeleted" ng-disabled="!IsPassword"> Is Deleted
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="isLoggedIn" ng-model="item.isLoggedIn" disabled> Is Logged In
+                                    </label>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary" ng-click="save()" style="margin-left: 394px;">Submit</button>
+                                &nbsp;
+                                <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <div style="clear:both;"></div>
+        </div>
+    <div style="clear:both;"></div>
+</div>

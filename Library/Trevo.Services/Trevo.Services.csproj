@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{63528325-CCA4-4828-A86F-FC669353166D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trevo.Services</RootNamespace>
+    <AssemblyName>Trevo.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chat\ChatOfflineService.cs" />
+    <Compile Include="Chat\IChatOfflineService.cs" />
+    <Compile Include="Country\CountryService.cs" />
+    <Compile Include="Country\ICountryService.cs" />
+    <Compile Include="FavouriteService\FavouritesService.cs" />
+    <Compile Include="FavouriteService\IFavouritesService.cs" />
+    <Compile Include="HobbyService\HobbiesService.cs" />
+    <Compile Include="HobbyService\IHobbiesService.cs" />
+    <Compile Include="Language\ILanguageLevelService.cs" />
+    <Compile Include="Language\ILanguageService.cs" />
+    <Compile Include="Language\LanguageLevelService.cs" />
+    <Compile Include="Language\LanguageService.cs" />
+    <Compile Include="MomentService\IMomentsService.cs" />
+    <Compile Include="MomentService\MomentsService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Token\ITokenServices.cs" />
+    <Compile Include="Token\TokenServices.cs" />
+    <Compile Include="TransliterationService\ITransliterationService.cs" />
+    <Compile Include="TransliterationService\IUserTransliterationService.cs" />
+    <Compile Include="TransliterationService\TransliterationService.cs" />
+    <Compile Include="TransliterationService\UserTransliterationService.cs" />
+    <Compile Include="UserBlockService\BlockService.cs" />
+    <Compile Include="UserBlockService\IBlockService.cs" />
+    <Compile Include="UserFollowService\IUserFollowDetailService.cs" />
+    <Compile Include="UserFollowService\UserFollowDetailService.cs" />
+    <Compile Include="Users\IUserLanguageService.cs" />
+    <Compile Include="Users\IUserService.cs" />
+    <Compile Include="Users\UserLanguageService.cs" />
+    <Compile Include="Users\UserService.cs" />
+    <Compile Include="UserUploadService\IUserUploadsService.cs" />
+    <Compile Include="UserUploadService\UserUploadsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Trevo.Core\Trevo.Core.csproj">
+      <Project>{1e38a677-d0d2-4e4b-9c5a-85bc8d5df89b}</Project>
+      <Name>Trevo.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trevo.Data\Trevo.Data.csproj">
+      <Project>{8b0e63d0-773b-4b1f-8e16-0aee6baa02d0}</Project>
+      <Name>Trevo.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1294 @@
+﻿{
+  "emojisArray": [
+
+    {
+      "group": "smiley",
+      "class": "em em-bowtie"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smile"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smiley"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-blush"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-relaxed"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smirk"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-heart_eyes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kissing_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kissing_closed_eyes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-flushed"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-relieved"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-satisfied"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-grin"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-wink"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-stuck_out_tongue_winking_eye"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-stuck_out_tongue_closed_eyes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-grinning"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kissing"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kissing_smiling_eyes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-stuck_out_tongue"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sleeping"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-worried"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-frowning"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-anguished"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-open_mouth"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-grimacing"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-confused"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-hushed"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-expressionless"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-unamused"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sweat_smile"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sweat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-disappointed_relieved"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-weary"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-pensive"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-disappointed"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-confounded"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-fearful"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cold_sweat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-persevere"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cry"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sob"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-joy"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-astonished"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-scream"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-neckbeard"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-tired_face"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-angry"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-rage"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-triumph"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sleepy"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-yum"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-mask"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sunglasses"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-dizzy_face"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-imp"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smiling_imp"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-neutral_face"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-no_mouth"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-innocent"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-alien"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-yellow_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-blue_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-purple_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-green_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-broken_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-heartbeat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-heartpulse"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-two_hearts"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-revolving_hearts"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cupid"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sparkling_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sparkles"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-star"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-star2"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-dizzy"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-boom"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-collision"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-anger"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-exclamation"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-question"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-grey_exclamation"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-grey_question"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-zzz"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-dash"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sweat_drops"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-notes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-musical_note"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-fire"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-hankey"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-poop"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-shit"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-thumbsup"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-thumbsdown"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-ok_hand"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-punch"
+    },
+    {
+      "group": "smiley",
+      "class": "<em em-facepunch"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-fist"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-wave"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-hand"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-raised_hand"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-open_hands"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-point_up"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-point_down"
+    },
+    {
+      "group": "smiley",
+      "class": "<em em-point_left"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-point_right"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-raised_hands"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-pray"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-point_up_2"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-clap"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-muscle"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-metal"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-fu"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-walking"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-runner"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-running"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-couple"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-family"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-two_men_holding_hands"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-two_women_holding_hands"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-dancer"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-dancers"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-ok_woman"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-no_good"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-information_desk_person"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-raising_hand"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-bride_with_veil"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-person_with_pouting_face"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-person_frowning"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-bow"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-couplekiss"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-couple_with_heart"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-massage"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-haircut"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-nail_care"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-boy"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-girl"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-woman"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-man"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-baby"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-older_woman"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-older_man"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-person_with_blond_hair"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-man_with_gua_pi_mao"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-man_with_turban"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-construction_worker"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cop"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-angel"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-princess"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smiley_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-heart_eyes_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kissing_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-smirk_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-scream_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-crying_cat_face"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-joy_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-pouting_cat"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-japanese_ogre"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-japanese_goblin"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-see_no_evil"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-hear_no_evil"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-speak_no_evil"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-guardsman"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-skull"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-feet"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-lips"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-kiss"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-droplet"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-ear"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-eyes"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-nose>"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-tongue"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-love_letter"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-bust_in_silhouette"
+    },
+    {
+      "group": "smiley",
+      "class": "<em em-speech_balloon"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-thought_balloon"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-feelsgood"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-finnadie"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-goberserk"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-godmode"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-hurtrealbad"
+    },
+    {
+      "group": "smiley",
+      "class": "<em em-rage1"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-rage2"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-rage3"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-rage4"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-suspect"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-trollface"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-sunny"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-umbrella"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cloud"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-snowflake"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-snowman"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-zap"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-cyclone"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-foggy"
+    },
+    {
+      "group": "smiley",
+      "class": "em em-ocean"
+    },{
+    "group": "aniFlower",
+    "class": "em em-cat"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dog"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-mouse"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-hamster"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rabbit"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-wolf"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-frog"
+  },
+  {
+    "group": "aniFlower",
+    "class": "<em em-tiger"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-koala"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bear"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-pig"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-pig_nose"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-cow"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-boar"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-monkey_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-monkey"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-horse"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-racehorse"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-camel"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-sheep"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-elephant"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-panda_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-snake"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bird"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-baby_chick"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-hatched_chick"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-hatching_chick"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-chicken"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-penguin"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bug"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-honeybee"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-ant"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-beetle"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-snail"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-octopus"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-tropical_fish"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-fish"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-whale"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-whale2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dolphin"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-cow2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-ram"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rat"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-water_buffalo"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-tiger2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rabbit2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dragon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-goat"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rooster"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dog2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-pig2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-mouse2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-ox"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dragon_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-blowfish"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-crocodile"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dromedary_camel"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-leopard"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-cat2"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-poodle"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-paw_prints"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bouquet"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-cherry_blossom"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-tulip"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-four_leaf_clover"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rose"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-sunflower"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-hibiscus"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-maple_leaf"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-leaves"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-fallen_leaf"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-herb"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-mushroom"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-cactus"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-palm_tree"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-evergreen_tree"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-deciduous_tree"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-chestnut"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-seedling"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-blossom"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-ear_of_rice"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-shell"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-globe_with_meridians"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-sun_with_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-full_moon_with_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-new_moon_with_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-new_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-waxing_crescent_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-first_quarter_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-waxing_gibbous_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-full_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-waning_gibbous_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-last_quarter_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-waning_crescent_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-last_quarter_moon_with_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-first_quarter_moon_with_face"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-full_moon"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-earth_americas"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-earth_asia"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-volcano"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-milky_way"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-sunny"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-octocat"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-squirrel"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bamboo"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-gift_heart"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-dolls"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-school_satchel"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-mortar_board"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-flags"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-fireworks"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-sparkler"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-wind_chime"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-rice_scene"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-jack_o_lantern"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-ghost"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-santa"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-christmas_tree"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-gift"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-bell"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-no_bell"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-tanabata_tree"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-tada"
+  },
+  {
+    "group": "aniFlower",
+    "class": "em em-confetti_ball"
+  },
+   {
+    "group": "aniFlower",
+    "class": "em em-crystal_ball"
+  }
+
+  ]
+  
+}

@@ -1,0 +1,58 @@
+﻿
+
+<div ng-controller="clientCtrl">
+
+
+
+
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-header">
+                    <div class="pull-left">
+                        <h3 class="box-title">Client List</h3>
+                    </div>
+                   
+
+                </div>
+
+                <div class="box-body">
+                    <table id="clientList" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+
+                                <th>Name</th>
+                                <th>Contact Status</th>
+                                <th>View Client Details</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-if="clientList" ng-repeat="item in clientList">
+
+                                <td>{{item.Name | uppercase}}</td>
+                                <td>{{item.ContactStatus | uppercase}}</td>
+                                <td>
+                                <a ui-sref="staff.clientDetails({staffId:item.UserKey})">
+                                    <i class="fa fa-2x fa fa-info-circle" aria-hidden="true"></i>
+                                </a>
+
+                                </td>
+
+                            </tr>
+                            <tr ng-if="!clientList">
+                                <td colspan="3">No Result Found</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-ng-include="'app/views/staff/partials/recentPatientList.html'"></div>
+</div>
+
+

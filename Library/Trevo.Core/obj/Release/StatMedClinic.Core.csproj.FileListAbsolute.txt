@@ -1,0 +1,4 @@
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Core\bin\Release\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Core\bin\Release\NSBOCInspection.Core.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Core\obj\Release\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Core\obj\Release\NSBOCInspection.Core.pdb

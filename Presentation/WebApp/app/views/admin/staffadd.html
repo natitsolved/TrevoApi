@@ -1,0 +1,124 @@
+<div ng-controller="staffaddCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                Staff
+            </h1>
+            <div ncy-breadcrumb></div>
+        </section>
+
+
+        <section class="content">
+            <div class="row">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+
+                    </div>
+                    <form  name="userForm">
+                        <div class="box-body">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label for="role_id" ng-class="{ 'has-error': userForm.RoleType.$invalid }">User Role</label>
+                                    <input type="text" class="form-control" name="RoleType" ng-model="allroleusers.Name" id="role_id"  value="{{allroleusers.Name}}" required disabled>
+                                </div>
+                                <!--<div class="form-group" show-errors>
+                                    <label for="exampleInputName" ng-class="{ 'has-error': userForm.UserName.$invalid }">User Name</label>
+                                    <input type="text" class="form-control" name="UserName" ng-model="item.UserName" id="exampleInputName" placeholder="Enter User Name" required>
+                                </div>-->
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputEmail1" ng-class="{ 'has-error': userForm.Email.$invalid }">Email</label>
+                                    <input type="email" class="form-control" name="Email" ng-model="item.Email" id="exampleInputEmail1" placeholder="Enter email" required>
+                                </div>
+                                <div class="form-group" show-errors ng-if="IsPassword">
+                                    <label for="exampleInputPassword1" ng-class="{ 'has-error': userForm.Password.$invalid }">Password</label>
+                                    <input type="password" class="form-control" name="Password" ng-model="item.Password" id="exampleInputPassword1" placeholder="Password" required minlength="6">
+                                </div>
+                                <!--<div class="form-group" show-errors ng-if="IsPassword">
+                                    <label for="exampleInputPasswordConfirm" ng-class="{ 'has-error': userForm.ConfirmPassword.$invalid }">Confirm Password</label>
+                                    <input type="password" class="form-control" name="ConfirmPassword" ng-model="item.ConfirmPassword" id="exampleInputPasswordConfirm" placeholder="Password" required minlength="6">
+                                </div>-->
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.PhoneNo.$invalid }">Phone</label>
+                                    <input type="tel" class="form-control" name="PhoneNo" ng-model="item.PhoneNo" id="exampleInputPhone" placeholder="Enter Phone"  required maxlength="10">
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.FirstName.$invalid }">First Name</label>
+                                    <input type="text" class="form-control" name="FirstName" ng-model="item.FirstName" id="examplefirstName" placeholder="Enter First Name"  required>
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputPhone" ng-class="{ 'has-error': userForm.LastName.$invalid }">Last Name</label>
+                                    <input type="text" class="form-control" name="LastName" ng-model="item.LastName" id="examplelastName" placeholder="Enter Last Name"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.Address.$invalid }">Address</label>
+                                    <textarea placeholder="Address" rows="3" name="Address" ng-model="item.Address" class="form-control" ></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.City.$invalid }">City</label>
+                                    <input type="text" class="form-control" name="City" ng-model="item.City" id="exampleCity" placeholder="Enter City"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.State.$invalid }">State</label>
+                                    <input type="text" class="form-control" name="State" ng-model="item.State" id="exampleState" placeholder="Enter State"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.ZipCode.$invalid }">Zip Code</label>
+                                    <input type="text" class="form-control" name="ZipCode" ng-model="item.ZipCode" id="examplezipCodee" placeholder="Enter Zip Code" maxlength="6"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.Gender.$invalid }">Gender</label>
+                                    <input type="text" class="form-control" name="Gender" ng-model="item.Gender" id="exampleGender" placeholder="Enter Gender"  >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label ng-class="{ 'has-error': userForm.DateOfBirth.$invalid }">Date Of Birth</label>
+                                    <input type="date" class="form-control" name="DateOfBirth" ng-model="item.DateOfBirth"   id="exampledateOfBirth"   >
+                                    <!-- <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>-->
+                                </div>
+
+                                <div class="form-group" show-errors>
+
+                                    <input type="file" style="display: inline-block;" class="button button-block btn_sky_blue" ngf-select ngf-max-size="2MB" ng-model="item.picFile" name="file" ngf-pattern="'.png,.jpg,.gif,.jpeg'" capture="camera" accept="image/*" onchange="angular.element(this).scope().setFile(this)">
+                                    <!-- <i ng-show="userForm.file.$error.maxSize">{{'lang_image_maximum' | translate}}</i>-->
+                                </div>
+                                <img ng-src="{{image_source}}" style="height:150px;width:200px;" ng-show="isShow">
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isactive" ng-model="item.isactive" ng-disabled="!IsPassword"> Is Active
+                                    </label>
+                                </div>
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="isDeleted" ng-model="item.isDeleted" ng-disabled="!IsPassword"> Is Deleted
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="isLoggedIn" ng-model="item.isLoggedIn" disabled> Is Logged In
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" ng-click="save()" style="margin-left: 394px;">Submit</button>
+                            &nbsp;
+                            <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            <br>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+</div>

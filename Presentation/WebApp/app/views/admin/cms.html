@@ -1,0 +1,77 @@
+<div ng-controller="cmsCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                CMS
+                <!--<small>advanced tables</small>-->
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="pull-left">
+                                <h3 class="box-title">CMS List</h3>
+                            </div>
+                            <div class="pull-right">
+                                <a ui-sref="admin.cmsadd({pageid:'add'})" class="btn btn-primary" >Add CMS</a>
+                            </div>
+
+                        </div>
+
+                        <div class="box-body">
+                            <table id="cmsList" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+
+                                    <th class="hidden-phone">Name</th>
+                                    <th class="hidden-phone">Slug</th>
+                                    <th class="hidden-phone">Meta Keyword</th>
+                                    <th class="hidden-phone">Meta Description</th>
+
+                                    <th>Action</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+
+                                <tr ng-if="allcms" ng-repeat="item in allcms">
+                                    <td >{{item.Title}}</td>
+                                    <td >{{item.Slug}}</td>
+                                    <td >{{item.MetaKeyWord}}</td>
+                                    <td >{{item.MetaDescription}}</td>
+                                    <td ><a ui-sref="admin.cmsadd({pageid:item.PageID})" ><i class="fa fa-2x fa-pencil-square-o" aria-hidden="true"></i>
+                                    </a>
+                                        <a href="javascript:;" ng-click="deleteCms(item.PageID)"
+                                        ><i class="fa fa-2x fa-trash" aria-hidden="true"></i>
+                                        </a></td>
+
+                                </tr>
+                                <tr ng-if="!allcms">
+                                    <td colspan="5">No Result Found</td>
+                                </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </section>
+        <!-- /.content -->
+    </div>
+
+</div>

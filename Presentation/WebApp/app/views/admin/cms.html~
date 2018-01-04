@@ -1,0 +1,161 @@
+<div ng-controller="cmsCtrl as pageList">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div ng-if="cmsView == 'view'">
+                    <header class="panel-heading">
+                        CMS
+                        <span class="tools pull-right">
+                            <a class="fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="fa fa-times" href="javascript:;"></a>
+                         </span>
+                    </header>
+                    <div class="panel-body">
+                        <div class="btn-group">
+                            <button class="btn btn-primary" id="editable-sample_new" ng-click ="addCms()">
+                                Add Cms
+                            </button>
+                        </div>
+                        <table id="cmsList" class="table  table-hover general-table">
+                            <thead>
+                            <tr>
+
+                                <th class="hidden-phone">Name</th>
+                                <th class="hidden-phone">Slug</th>
+                                <th class="hidden-phone">Meta Keyword</th>
+                                <th class="hidden-phone">Meta Tag</th>
+
+                                <th>Action</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            <tr ng-if="allcms" ng-repeat="item in allcms">
+
+                                <td >{{item.name}}</td>
+                                <td >{{item.slug}}</td>
+                                <td >{{item.meta_keyword}}</td>
+                                <td >{{item.meta_tag}}</td>
+                                &lt;!&ndash; <td >{{item.is_active==1?'Active':'Inactive'}}</td>&ndash;&gt;
+                                <td ><a class="btn btn-default edit" href="javascript:;" ng-click ="editCms(item)">Edit</a>
+                                    <a class="btn btn-default delete" href="javascript:;" ng-click="deleteCms(item._id)"
+                                            >Delete</a></td>
+
+                            </tr>
+                            <tr ng-if="!allcms">
+                                <td colspan="4">No Result Found</td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div ng-if="cmsView == 'edit'">
+                    <header class="panel-heading">
+                        CMS
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" ng-submit="saveCms()" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputName">Title</label>
+                                <input type="text" placeholder="Enter Title"  id="exampleInputName" ng-model="item.name" class="form-control">
+                                <input type="hidden"  ng-model="item.id" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Description</label>
+                                <textarea placeholder="Enter Description"  id="description" ng-model="item.content" ckeditor class="form-control"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Meta Tag</label>
+                                <input type="text" placeholder="Enter Meta Tag"  id="meta_tag" ng-model="item.meta_tag" class="form-control">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputName">Meta Keyword</label>
+                                <input type="text" placeholder="Enter Meta Keyword"  id="meta_keyword" ng-model="item.meta_keyword" class="form-control">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Meta Description</label>
+                                <textarea placeholder="Enter Meta Description"  id="meta_description" ng-model="item.meta_description" ckeditor class="form-control"></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="item.is_active" ng-true-value="1" ng-false-value="0"> Is Active
+                                </label>
+                            </div>
+
+
+
+
+
+
+                            &lt;!&ndash;<div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>&ndash;&gt;
+                            &lt;!&ndash;<div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="item.is_active" ng-true-value="1" ng-false-value="0"> Is Active
+                                </label>
+                            </div>&ndash;&gt;
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-danger" type="button" ng-click="cancelCms()">Cancel</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+
+    <!--<div class="content-wrapper">
+       
+        <section class="content-header">
+
+            <h1>
+                CMS
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+       
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box" ng-if="viewUser == 'view'">
+                        <div class="box-header">
+                            <div class="pull-left">
+                                <h3 class="box-title">Page List</h3>
+                            </div>
+                            <div class="pull-right">
+                                <a ui-sref="admin.useradd({userId:'add'})" class="btn btn-primary" >Add User</a>
+                            </div>
+
+                        </div>
+                        
+                        <div class="box-body">
+
+                            <table datatable="" dt-options="pageList.dtOptions" dt-columns="pageList.dtColumns" class="table table-striped table-bordered"></table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>-->
+
+</div>

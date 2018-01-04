@@ -1,0 +1,1330 @@
+{
+  "emojisArray": [
+
+    {
+      "group": "smiley",
+      "class": ":bowtie:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smile:"
+    },
+    {
+      "group": "smiley",
+      "class": ":laughing:"
+    },
+    {
+      "group": "smiley",
+      "class": ":blush:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smiley:"
+    },
+    {
+      "group": "smileyw",
+      "class": ":relaxed:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smirk:"
+    },
+    {
+      "group": "smiley",
+      "class": ":heart_eyes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kissing_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kissing_closed_eyes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":flushed:"
+    },
+    {
+      "group": "smiley",
+      "class": ":relieved:"
+    },
+    {
+      "group": "smiley",
+      "class": ":satisfied:"
+    },
+    {
+      "group": "smiley",
+      "class": ":grin:"
+    },
+    {
+      "group": "smiley",
+      "class": ":wink:"
+    },
+    {
+      "group": "smiley",
+      "class": ":stuck_out_tongue_winking_eye:"
+    },
+    {
+      "group": "smiley",
+      "class": ":stuck_out_tongue_closed_eyes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":grinning:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kissing:"
+    },
+    {
+      "group": "smiley",
+      "class": ":winky_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kissing_smiling_eyes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":stuck_out_tongue:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sleeping:"
+    },
+    {
+      "group": "smiley",
+      "class": ":worried:"
+    },
+    {
+      "group": "smiley",
+      "class": ":frowning:"
+    },
+    {
+      "group": "smiley",
+      "class": ":anguished:"
+    },
+    {
+      "group": "smiley",
+      "class": ":open_mouth:"
+    },
+    {
+      "group": "smiley",
+      "class": ":grimacing:"
+    },
+    {
+      "group": "smiley",
+      "class": ":confused:"
+    },
+    {
+      "group": "smiley",
+      "class": ":hushed:"
+    },
+    {
+      "group": "smiley",
+      "class": ":expressionless:"
+    },
+    {
+      "group": "smiley",
+      "class": ":unamused:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sweat_smile:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sweat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":wow:"
+    },
+    {
+      "group": "smiley",
+      "class": ":disappointed_relieved:"
+    },
+    {
+      "group": "smiley",
+      "class": ":weary:"
+    },
+    {
+      "group": "smiley",
+      "class": ":pensive:"
+    },
+    {
+      "group": "smiley",
+      "class": ":disappointed:"
+    },
+    {
+      "group": "smiley",
+      "class": ":confounded:"
+    },
+    {
+      "group": "smiley",
+      "class": ":fearful:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cold_sweat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":persevere:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cry:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sob:"
+    },
+    {
+      "group": "smiley",
+      "class": ":joy:"
+    },
+    {
+      "group": "smiley",
+      "class": ":astonished:"
+    },
+    {
+      "group": "smiley",
+      "class": ":scream:"
+    },
+    {
+      "group": "smiley",
+      "class": ":neckbeard:"
+    },
+    {
+      "group": "smiley",
+      "class": ":tired_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":angry:"
+    },
+    {
+      "group": "smiley",
+      "class": ":rage:"
+    },
+    {
+      "group": "smiley",
+      "class": ":triumph:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sleepy:"
+    },
+    {
+      "group": "smiley",
+      "class": ":yum:"
+    },
+    {
+      "group": "smiley",
+      "class": ":mask:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sunglasses:"
+    },
+    {
+      "group": "smiley",
+      "class": ":dizzy_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":imp:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smiling_imp:"
+    },
+    {
+      "group": "smiley",
+      "class": ":neutral_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":no_mouth:"
+    },
+    {
+      "group": "smiley",
+      "class": ":innocent:"
+    },
+    {
+      "group": "smiley",
+      "class": ":alien:"
+    },
+    {
+      "group": "smiley",
+      "class": ":yellow_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":blue_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":purple_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":green_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":broken_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":heartbeat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":heartpulse:"
+    },
+    {
+      "group": "smiley",
+      "class": ":two_hearts:"
+    },
+    {
+      "group": "smiley",
+      "class": ":revolving_hearts:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cupid:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sparkling_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sparkles:"
+    },
+    {
+      "group": "smiley",
+      "class": ":star:"
+    },
+    {
+      "group": "smiley",
+      "class": ":star2:"
+    },
+    {
+      "group": "smiley",
+      "class": ":dizzy:"
+    },
+    {
+      "group": "smiley",
+      "class": ":boom:"
+    },
+    {
+      "group": "smiley",
+      "class": ":collision:"
+    },
+    {
+      "group": "smiley",
+      "class": ":anger:"
+    },
+    {
+      "group": "smiley",
+      "class": ":exclamation:"
+    },
+    {
+      "group": "smiley",
+      "class": ":question:"
+    },
+    {
+      "group": "smiley",
+      "class": ":grey_exclamation:"
+    },
+    {
+      "group": "smiley",
+      "class": ":grey_question:"
+    },
+    {
+      "group": "smiley",
+      "class": ":zzz:"
+    },
+    {
+      "group": "smiley",
+      "class": ":dash:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sweat_drops:"
+    },
+    {
+      "group": "smiley",
+      "class": ":notes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":musical_note:"
+    },
+    {
+      "group": "smiley",
+      "class": ":fire:"
+    },
+    {
+      "group": "smiley",
+      "class": ":hankey:"
+    },
+    {
+      "group": "smiley",
+      "class": ":poop:"
+    },
+    {
+      "group": "smiley",
+      "class": ":shit:"
+    },
+    {
+      "group": "smiley",
+      "class": ":\\+1:"
+    },
+    {
+      "group": "smiley",
+      "class": ":thumbsup:"
+    },
+    {
+      "group": "smiley",
+      "class": ":-1:"
+    },
+    {
+      "group": "smiley",
+      "class": ":thumbsdown:"
+    },
+    {
+      "group": "smiley",
+      "class": ":ok_hand:"
+    },
+    {
+      "group": "smiley",
+      "class": ":punch:"
+    },
+    {
+      "group": "smiley",
+      "class": ":facepunch:"
+    },
+    {
+      "group": "smiley",
+      "class": ":fist:"
+    },
+    {
+      "group": "smiley",
+      "class": ":v:"
+    },
+    {
+      "group": "smiley",
+      "class": ":wave:"
+    },
+    {
+      "group": "smiley",
+      "class": ":hand:"
+    },
+    {
+      "group": "smiley",
+      "class": ":raised_hand:"
+    },
+    {
+      "group": "smiley",
+      "class": ":open_hands:"
+    },
+    {
+      "group": "smiley",
+      "class": ":point_up:"
+    },
+    {
+      "group": "smiley",
+      "class": ":point_down:"
+    },
+    {
+      "group": "smiley",
+      "class": ":point_left:"
+    },
+    {
+      "group": "smiley",
+      "class": ":point_right:"
+    },
+    {
+      "group": "smiley",
+      "class": ":raised_hands:"
+    },
+    {
+      "group": "smiley",
+      "class": ":pray:"
+    },
+    {
+      "group": "smiley",
+      "class": ":point_up_2:"
+    },
+    {
+      "group": "smiley",
+      "class": ":clap:"
+    },
+    {
+      "group": "smiley",
+      "class": ":muscle:"
+    },
+    {
+      "group": "smiley",
+      "class": ":metal:"
+    },
+    {
+      "group": "smiley",
+      "class": ":fu:"
+    },
+    {
+      "group": "smiley",
+      "class": ":walking:"
+    },
+    {
+      "group": "smiley",
+      "class": ":runner:"
+    },
+    {
+      "group": "smiley",
+      "class": ":running:"
+    },
+    {
+      "group": "smiley",
+      "class": ":couple:"
+    },
+    {
+      "group": "smiley",
+      "class": ":family:"
+    },
+    {
+      "group": "smiley",
+      "class": ":two_men_holding_hands:"
+    },
+    {
+      "group": "smiley",
+      "class": ":two_women_holding_hands:"
+    },
+    {
+      "group": "smiley",
+      "class": ":dancer:"
+    },
+    {
+      "group": "smiley",
+      "class": ":dancers:"
+    },
+    {
+      "group": "smiley",
+      "class": ":ok_woman:"
+    },
+    {
+      "group": "smiley",
+      "class": ":no_good:"
+    },
+    {
+      "group": "smiley",
+      "class": ":information_desk_person:"
+    },
+    {
+      "group": "smiley",
+      "class": ":raising_hand:"
+    },
+    {
+      "group": "smiley",
+      "class": ":bride_with_veil:"
+    },
+    {
+      "group": "smiley",
+      "class": ":person_with_pouting_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":person_frowning:"
+    },
+    {
+      "group": "smiley",
+      "class": ":bow:"
+    },
+    {
+      "group": "smiley",
+      "class": ":couplekiss:"
+    },
+    {
+      "group": "smiley",
+      "class": ":couple_with_heart:"
+    },
+    {
+      "group": "smiley",
+      "class": ":massage:"
+    },
+    {
+      "group": "smiley",
+      "class": ":haircut:"
+    },
+    {
+      "group": "smiley",
+      "class": ":nail_care:"
+    },
+    {
+      "group": "smiley",
+      "class": ":boy:"
+    },
+    {
+      "group": "smiley",
+      "class": ":girl:"
+    },
+    {
+      "group": "smiley",
+      "class": ":woman:"
+    },
+    {
+      "group": "smiley",
+      "class": ":man:"
+    },
+    {
+      "group": "smiley",
+      "class": ":baby:"
+    },
+    {
+      "group": "smiley",
+      "class": ":older_woman:"
+    },
+    {
+      "group": "smiley",
+      "class": ":older_man:"
+    },
+    {
+      "group": "smiley",
+      "class": ":person_with_blond_hair:"
+    },
+    {
+      "group": "smiley",
+      "class": ":man_with_gua_pi_mao:"
+    },
+    {
+      "group": "smiley",
+      "class": ":man_with_turban:"
+    },
+    {
+      "group": "smiley",
+      "class": ":construction_worker:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cop:"
+    },
+    {
+      "group": "smiley",
+      "class": ":angel:"
+    },
+    {
+      "group": "smiley",
+      "class": ":princess:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smiley_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":mile_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":heart_eyes_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kissing_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":smirk_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":scream_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":crying_cat_face:"
+    },
+    {
+      "group": "smiley",
+      "class": ":joy_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":pouting_cat:"
+    },
+    {
+      "group": "smiley",
+      "class": ":japanese_ogre:"
+    },
+    {
+      "group": "smiley",
+      "class": ":japanese_goblin:"
+    },
+    {
+      "group": "smiley",
+      "class": ":see_no_evil:"
+    },
+    {
+      "group": "smiley",
+      "class": ":hear_no_evil:"
+    },
+    {
+      "group": "smiley",
+      "class": ":speak_no_evil:"
+    },
+    {
+      "group": "smiley",
+      "class": ":guardsman:"
+    },
+    {
+      "group": "smiley",
+      "class": ":skull:"
+    },
+    {
+      "group": "smiley",
+      "class": ":feet:"
+    },
+    {
+      "group": "smiley",
+      "class": ":lips:"
+    },
+    {
+      "group": "smiley",
+      "class": ":kiss:"
+    },
+    {
+      "group": "smiley",
+      "class": ":droplet:"
+    },
+    {
+      "group": "smiley",
+      "class": ":ear:"
+    },
+    {
+      "group": "smiley",
+      "class": ":eyes:"
+    },
+    {
+      "group": "smiley",
+      "class": ":nose:"
+    },
+    {
+      "group": "smiley",
+      "class": ":tongue:"
+    },
+    {
+      "group": "smiley",
+      "class": ":love_letter:"
+    },
+    {
+      "group": "smiley",
+      "class": ":bust_in_silhouette:"
+    },
+    {
+      "group": "smiley",
+      "class": ":speech_balloon:"
+    },
+    {
+      "group": "smiley",
+      "class": ":thought_balloon:"
+    },
+    {
+      "group": "smiley",
+      "class": ":feelsgood:"
+    },
+    {
+      "group": "smiley",
+      "class": ":finnadie:"
+    },
+    {
+      "group": "smiley",
+      "class": ":goberserk:"
+    },
+    {
+      "group": "smiley",
+      "class": ":godmode:"
+    },
+    {
+      "group": "smiley",
+      "class": ":hurtrealbad:"
+    },
+    {
+      "group": "smiley",
+      "class": ":rage1:"
+    },
+    {
+      "group": "smiley",
+      "class": ":rage2:"
+    },
+    {
+      "group": "smiley",
+      "class": ":rage3:"
+    },
+    {
+      "group": "smiley",
+      "class": ":rage4:"
+    },
+    {
+      "group": "smiley",
+      "class": ":suspect:"
+    },
+    {
+      "group": "smiley",
+      "class": ":trollface:"
+    },
+    {
+      "group": "smiley",
+      "class": ":sunny:"
+    },
+    {
+      "group": "smiley",
+      "class": ":umbrella:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cloud:"
+    },
+    {
+      "group": "smiley",
+      "class": ":snowflake:"
+    },
+    {
+      "group": "smiley",
+      "class": ":snowman:"
+    },
+    {
+      "group": "smiley",
+      "class": ":zap:"
+    },
+    {
+      "group": "smiley",
+      "class": ":cyclone:"
+    },
+    {
+      "group": "smiley",
+      "class": ":foggy:"
+    },
+    {
+      "group": "smiley",
+      "class": ":ocean:"
+    },{
+    "group": "aniFlower",
+    "class": ":cat:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dog:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":mouse:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":hamster:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rabbit:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":wolf:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":frog:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tiger:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":koala:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bear:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":pig:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":pig_nose:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":cow:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":boar:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":monkey_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":monkey:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":horse:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":racehorse:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":camel:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":sheep:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":elephant:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":panda_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":snake:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bird:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":baby_chick:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":hatched_chick:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":hatching_chick:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":chicken :"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":penguin:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":turtule:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bug:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":honeybee:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":ant:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":beetle:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":snail:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":octopus:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tropical_fish:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":fish:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":whale:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":whale2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dolphin:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":cow2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":ram:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rat:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":water_buffalo:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tiger2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rabbit2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dragon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":goat:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rooster:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dog2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":pig2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":mouse2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":ox:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dragon_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":blowfish:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":crocodile:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dromedary_camel:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":leopard:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":cat2:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":poodle:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":paw_prints:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bouquet:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":cherry_blossom:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tulip:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":four_leaf_clover:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rose:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":sunflower:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":hibiscus:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":maple_leaf:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":leaves:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":fallen_leaf:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":herb:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":mushroom:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":cactus:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":palm_tree:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":evergreen_tree:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":deciduous_tree:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":chestnut:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":seedling:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":blossom:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":ear_of_rice:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":shell:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":globe_with_meridians:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":sun_with_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":full_moon_with_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":new_moon_with_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":new_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":waxing_crescent_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":first_quarter_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":waxing_gibbous_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":full_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":waning_gibbous_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":last_quarter_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":waning_crescent_moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":last_quarter_moon_with_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":first_quarter_moon_with_face:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":moon:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":earth_americas:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":earth_asia:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":volcano:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":milky_way:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":party_sunny:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":octocat:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":squirrel:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bamboo:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":gift_heart:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":dolls:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":school_satchel:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":mortar_board:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":flags:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":fireworks:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":sparkler:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":wind_chime:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":rice_scene:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":jack_o_lantern:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":ghost:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":santa:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":christmas_tree:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":gift:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":bell:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":no_bell:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tanabata_tree:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":tada:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":confetti_ball:"
+  },
+  {
+    "group": "aniFlower",
+    "class": ":baloon:"
+  },
+   {
+    "group": "aniFlower",
+    "class": ":crystal_ball:"
+  }
+
+  ]
+  
+}

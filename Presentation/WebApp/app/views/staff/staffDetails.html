@@ -1,0 +1,85 @@
+﻿<div ng-controller="clientCtrl">
+
+
+
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <form name="userForm">
+                    <div class="box-body">
+                        <div class="col-xs-6">
+                            <div class="form-group" show-errors>
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" name="Email" ng-model="item.Email" id="exampleInputEmail1" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label for="exampleInputPhone">Phone</label>
+                                <input type="tel" class="form-control" name="PhoneNo" ng-model="item.PhoneNo" id="exampleInputPhone" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label for="exampleInputPhone">First Name</label>
+                                <input type="text" class="form-control" name="FirstName" ng-model="item.FirstName" id="examplefirstName" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label for="exampleInputPhone">Last Name</label>
+                                <input type="text" class="form-control" name="LastName" ng-model="item.LastName" id="examplelastName" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Address</label>
+                                <textarea placeholder="Address" rows="3" name="Address" ng-model="item.Address" class="form-control" readonly="readonly"></textarea>
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>City</label>
+                                <input type="text" class="form-control" name="City" ng-model="item.City" id="exampleCity" readonly="readonly">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+
+
+                            <div class="form-group" show-errors>
+                                <label>State</label>
+                                <input type="text" class="form-control" name="State" ng-model="item.State" id="exampleState" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Zip Code</label>
+                                <input type="text" class="form-control" name="ZipCode" ng-model="item.ZipCode" id="examplezipCodee" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Gender</label>
+                                <input type="text" class="form-control" name="Gender" ng-model="item.Gender" id="exampleGender" readonly="readonly">
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Date Of Birth</label>
+                                <input type="date" class="form-control" name="DateOfBirth" ng-model="item.DateOfBirth" id="exampledateOfBirth" value="{{item.DateOfBirth}}" readonly="readonly">
+
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Speciality</label>
+                                <input type="text" class="form-control" name="Speciality" ng-model="item.Speciality" id="exampleSpeciality" readonly="readonly">
+
+                            </div>
+                            <div class="form-group" show-errors>
+                                <label>Description</label>
+                                <input type="text" class="form-control" name="Description" ng-model="item.Description" id="exampleDescriptiony" readonly="readonly">
+
+                            </div>
+
+                            <img ng-src="{{image_source}}" style="height:150px;width:200px;" ng-show="isShow">
+
+                            <button type="button" class="btn btn-warning" ng-click="backFunction()" style="margin-top: 40px;">Back</button>
+                        </div>
+
+
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div data-ng-include="'app/views/staff/partials/recentPatientList.html'"></div>
+
+</div>
+

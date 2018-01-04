@@ -1,0 +1,142 @@
+<!--<style>
+	.slideout-menu { left: auto; }
+	.btn-hamburger { left: auto; right: 12px;}
+	.box { height: 1500px; }
+</style>-->
+<div ng-controller="headerCtrl">
+
+	<!--<nav id="menu" class="menu">
+		<a href="https://github.com/mango/slideout" target="_blank">
+			<header class="menu-header">
+				<span class="menu-header-title">Tests</span>
+			</header>
+		</a>
+
+		<section class="menu-section">
+			<h3 class="menu-section-title">Docs</h3>
+			<ul class="menu-section-list">
+				<li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+				<li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+				<li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+				<li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+			</ul>
+		</section>
+
+		<section class="menu-section">
+			<h3 class="menu-section-title">Docs</h3>
+			<ul class="menu-section-list">
+				<li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+				<li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+				<li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+				<li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+			</ul>
+		</section>
+
+		<section class="menu-section">
+			<h3 class="menu-section-title">Docs</h3>
+			<ul class="menu-section-list">
+				<li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+				<li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+				<li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+				<li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+			</ul>
+		</section>
+
+		<section class="menu-section">
+			<h3 class="menu-section-title">Docs</h3>
+			<ul class="menu-section-list">
+				<li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+				<li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+				<li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+				<li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+			</ul>
+		</section>
+	</nav>-->
+
+	<!--Web header-->
+	<header class="main-header phone-hide">
+		<div class="container">
+			<div class="logo"><img src="app/assets/Images/logo.jpg" width="306" height="61"  alt=""/></div>
+			<div class="top-link"><a ui-sref="frontend.cartpage"> <img src="app/assets/Images/cart.png" alt=""/><span class="cart-circle" ng-if="cartCount>0">{{cartCount}}</span></a> | <a ng-if="loggedindetails.loginstatus != 1" ui-sref="frontend.login">Login</a><a ng-if="loggedindetails.user_type_id == 2" ui-sref="frontend.dashboard">{{loggedindetails.email}}</a><a ng-if="loggedindetails.user_type_id == 3" ui-sref="frontend.merchantprofile">{{loggedindetails.email}}</a>  |  <a ng-if="loggedindetails.loginstatus != 1" ui-sref="frontend.register">Register</a><a ng-if="loggedindetails.loginstatus == 1" href="javascript:void(0)" ng-click="userLogout();">Logout</a></div>
+			<div class="dx-clearfix"></div>
+			<div class="nab-bar">
+				<div class="navigation phone-hide">
+					<ul>
+						<li><a ui-sref="frontend.index" ui-sref-active="active">Home</a></li>
+						<li id="dropdown"><a ui-sref-active="active">Voucher</a>
+							<ul  id="dropdown-content">
+
+								<li><a ui-sref="frontend.voucher">Menu Voucher</a></li>
+								<li><a ui-sref="frontend.paymentVoucher">Payment Voucher</a></li>
+							</ul>
+						</li>
+						<li><a ui-sref="frontend.membership" ui-sref-active="active">Membership</a></li>
+						<li><a ui-sref="frontend.marketplace" ui-sref-active="active">Marketplace</a></li>
+						<li ng-show="showMember" ng-if="loggedindetails.user_type_id!=3" id="dropdown"><a href="">Member</a>
+						    <ul  id="dropdown-content">
+						        <li><a ui-sref="frontend.allvoucher">My Voucher</a></li>
+						        <li><a ui-sref="frontend.mymembership">My Membership</a></li>
+						        <li><a ui-sref="frontend.profile">My Account</a></li>
+						        <li><a ui-sref="frontend.mypoints">My Points</a></li>
+						        <li><a ui-sref="frontend.myevent">Event Offer</a></li>
+						        <li><a ui-sref="frontend.queuing">Queuing</a></li>
+						        <li><a ui-sref="frontend.preorder">Pre-Order</a></li>
+						        <li><a ui-sref="frontend.feedback">Feedback</a></li>
+						    </ul>    
+						</li>
+						<li ng-show="showMember" ng-if="loggedindetails.user_type_id==3" id="dropdown"><a href="">Merchant</a>
+							<ul  id="dropdown-content" style="width:190px !important;">
+								<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantprofile"><i class="fa fa-user"></i> Change Profile</a></li>
+								<li ng-if="user_details.merchant_id"><a href="http://52.39.33.188/Member_Ship/MasterData/member_master_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i>Manage Member</a></li>
+								<li ><a ui-sref="frontend.purchasedmembrship"><i class="fa fa-user"></i>Purchased Membership</a></li>
+								<li><a ui-sref="frontend.merchantmenu"><i class="fa fa-user"></i> All Menu</a></li>
+								<li><a ui-sref="frontend.merchantmenucategories"><i class="fa fa-user"></i>Categories</a></li>
+								<li><a ui-sref="frontend.merchantrestaurants"><i class="fa fa-user"></i> Restaurants</a></li>
+								<li><a ui-sref="frontend.merchantoutlets"><i class="fa fa-user"></i> Outlets</a></li>
+								<li><a href="http://52.39.33.188/Member_Ship/MasterData/Promotion_Header_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i> Memberships</a></li>
+								<li><a ui-sref="frontend.merchantnews"><i class="fa fa-user"></i> News</a></li>
+							</ul>
+						</li>
+						<li><a ui-sref-active="active" ui-sref="frontend.news" ui-sref-active="active">News</a></li>
+
+					</ul>
+				</div>
+				<div class="search-br">
+					<form ng-submit="search()">
+                	<div class="search-f">
+                    <input type="text" ng-model="keyword"> <input type="submit" value="" class="s-button">
+                    </div>
+                    <div class="select-box">
+                    	<select ng-model="type">
+							<option value="">Select Type</option>
+                        	<option value="promo">Promo</option>
+                            <option value="restaurant">Restaurant</option>
+                            <option value="event">Event</option>
+                            <option value="news">News</option>
+							<option value="location">Location</option>
+                        </select>
+                    </div>
+					</form>
+                </div>
+			</div>
+		</div>
+		<div class="dx-clearfix"></div>
+	</header>
+
+	<!--Mobile header-->
+	<header class="mobile-header tablet-hide">
+
+		<div class="m-logo"><img src="app/assets/Images/m-logo.png" width="173" height="17"  alt=""/></div>
+		<div class="m-top-link">
+			<div class="search"><a ui-sref="frontend.cartpage"><img src="app/assets/Images/cart.png" alt=""/><span class="cart-circle"  ng-if="cartCount>0">{{cartCount}}</span></a></div>
+			<div class="cat-menu" ><a href="javascript:;" onclick="menuClick()" id="toggle-menu"><img src="app/assets/Images/m-menu.png" alt=""/></a></div>
+		</div>
+	</header>
+
+
+</div>
+<!--<style>
+	.slideout-menu { left: auto; }
+	.btn-hamburger { left: auto; right: 12px;}
+	.box { height: 1500px; }
+</style>-->

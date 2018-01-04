@@ -1,0 +1,13 @@
+D:\Projects\Trevo\Library\StatMedClinic.Core\bin\Debug\NSBOCInspection.Core.dll
+D:\Projects\Trevo\Library\StatMedClinic.Core\bin\Debug\NSBOCInspection.Core.pdb
+D:\Projects\Trevo\Library\StatMedClinic.Core\obj\Debug\NSBOCInspection.Core.dll
+D:\Projects\Trevo\Library\StatMedClinic.Core\obj\Debug\NSBOCInspection.Core.pdb
+E:\Xamrin\Trevo\Library\Trevo.Core\bin\Debug\NSBOCInspection.Core.dll
+E:\Xamrin\Trevo\Library\Trevo.Core\bin\Debug\NSBOCInspection.Core.pdb
+E:\Xamrin\Trevo\Library\Trevo.Core\obj\Debug\NSBOCInspection.Core.dll
+E:\Xamrin\Trevo\Library\Trevo.Core\obj\Debug\NSBOCInspection.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Core\bin\Debug\Trevo.Core.dll
+D:\Projects\Trevo\Library\Trevo.Core\bin\Debug\Trevo.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Core\obj\Debug\Trevo.Core.dll
+D:\Projects\Trevo\Library\Trevo.Core\obj\Debug\Trevo.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Core\obj\Debug\Trevo.Core.csprojResolveAssemblyReference.cache

@@ -1,0 +1,60 @@
+﻿
+
+<div ng-controller="doctorCtrl">
+
+
+    
+
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-header">
+                    <div class="pull-left">
+                        <h3 class="box-title">Doctor List</h3>
+                    </div>
+                  
+
+                </div>
+
+                <div class="box-body">
+                    <table id="doctorList" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone Number</th>
+                                <th>View Doctor Details</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-if="doctorList" ng-repeat="item in doctorList">
+
+                                <td>{{item.UserName | uppercase}}</td>
+                                <td>{{item.Email | uppercase}}</td>
+                                <td>{{item.PhoneNumber | tel}}</td>
+                                <td>
+                                    <a ui-sref="staff.docDetails({docId:item.Id})">
+                                        <i class="fa fa-2x fa fa-info-circle" aria-hidden="true"></i>
+                                    </a>
+                                   
+                                </td>
+
+                            </tr>
+                            <tr ng-if="!doctorList">
+                                <td colspan="3">No Result Found</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-ng-include="'app/views/staff/partials/recentPatientList.html'"></div>
+</div>
+
+

@@ -1,0 +1,189 @@
+<!--Web header-->
+<div ng-controller="registerCtrl">
+   
+        <div class="container">
+        <div class="login-section phone-hide">
+            <div class="img-box"><img src="app/assets/Images/login-bg.jpg" width="634" height="467"  alt=""/></div>
+            <div class="login-box">
+                <h2>Sign Up</h2>
+                
+                <!--<ul>
+                    <li>
+                        <label>Email:</label>
+                        <input type="text" ng-model="data.email" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your email">                        
+                    </li>
+                    <li>
+                        <label>Password:</label>
+                        <input type="text" ng-model="data.password" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your password">
+                    </li>
+                    <li>
+                        <p><input type="checkbox"> Remember me
+                            <span style="float: right;"><a href="">Forgot your password?</a></span>
+                        </p>
+
+                    </li>
+                    <li><button type="submit" class="btn btn-success btn-lg btn-block">Login</button></li>
+                    <p style="border-bottom: solid 1px #ccc;"></p>
+                </ul>-->
+                <div class="form">
+                        <div class="dx-fieldset"> 
+                                <!--<div class="dx-field">
+                                    <div class="dx-field-label">First Name</div>
+                                    <div class="dx-field-value">
+                                        <div dx-text-box="textBox.first_name" dx-validator="firstNameValidationRules" ng-model="first_name"></div>
+                                        
+                                            
+                                    </div>
+                                </div>
+                                <div class="dx-field">
+                                    <div class="dx-field-label">Last Name</div>
+                                    <div class="dx-field-value">                                        
+                                        <div dx-text-box="textBox.last_name" dx-validator="lastNameValidationRules" ng-model="last_name"></div>
+                                    </div>
+                                </div>-->
+                                <div class="dx-field">
+                                    <div class="dx-field-label">Email</div>
+                                    <div class="dx-field-value">                                        
+                                        <div dx-text-box="textBox.email" dx-validator="emailValidationRules" ng-model="email"></div>
+                                    </div>
+                                </div> 
+                                <!--<div class="dx-field">
+                                    <div class="dx-field-label">Username</div>
+                                    <div class="dx-field-value">                                        
+                                        <div dx-text-box="textBox.username" dx-validator="usernameValidationRules" ng-model="username"></div>
+                                    </div>
+                                </div>-->
+                                <div class="dx-field">
+                                    <div class="dx-field-label">Password</div>
+                                    <div class="dx-field-value">                                        
+                                        <div dx-text-box="textBox.password" dx-validator="passwordValidationRules" ng-model="password"></div>
+                                    </div>
+                                </div> 
+                                <!--<div class="dx-field">
+                                    <div class="dx-field-label">User Type</div>
+                                    <div class="dx-field-value">
+                                        <div dx-radio-group="radioGroup.changeLayout"  ng-model="user_type_id"></div>
+                                    </div>
+                                </div> -->
+                        </div>
+                        <!--<div id="summary" dx-validation-summary="{ }"></div>-->
+                    <ul>
+                        <li>
+                            <div id="button" dx-button="{
+                                    text: 'Submit',
+                                    type: 'success',
+                                    onClick: validateAndSubmit }" >
+
+                            </div>
+                        </li>
+                        <p style="border-bottom: solid 1px #ccc;"></p>
+                    </ul>
+                </div>
+
+                
+                <div class="social">
+                    <span><img src="app/assets/Images/f-icon.png" width="43" height="43"  alt=""/></span>
+                    <span><img src="app/assets/Images/g-icon.png" width="43" height="43"  alt=""/></span>
+                    <!--<img src="app/assets/Images/p-icon.png" width="43" height="43"  alt=""/>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Login area end Web-->
+    <div class="login-box tablet-hide">
+        <h2>Sign Up</h2>
+        <!--<ul>
+            <li>
+                <label>Email:</label>
+                <input type="text" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your email">
+            </li>
+            <li>
+                <label>Password:</label>
+                <input type="text" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your password">
+            </li>
+            <li>
+                <p><input type="checkbox"> Remember me                   <span style="float: right;"><a href="">Forgot your password?</a></span></p>
+
+            </li>
+            <li><button type="submit" class="btn btn-success btn-lg btn-block">Login</button></li>
+            <p style="border-bottom: solid 1px #ccc;"></p>
+        </ul>-->
+        <div class="form">
+            <div class="dx-fieldset">
+                <!--<div class="dx-field">
+                    <div class="dx-field-label">First Name</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.first_name" dx-validator="firstNameValidationRules" ng-model="first_name"></div>
+
+
+                    </div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Last Name</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.last_name" dx-validator="lastNameValidationRules" ng-model="last_name"></div>
+                    </div>
+                </div>-->
+                <div class="dx-field">
+                    <div class="dx-field-label">Email</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.email" dx-validator="emailValidationRules" ng-model="email"></div>
+                    </div>
+                </div>
+                <!--<div class="dx-field">
+                    <div class="dx-field-label">Username</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.username" dx-validator="usernameValidationRules" ng-model="username"></div>
+                    </div>
+                </div>-->
+                <div class="dx-field">
+                    <div class="dx-field-label">Password</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.password" dx-validator="passwordValidationRules" ng-model="password"></div>
+                    </div>
+                </div>
+                <!--<div class="dx-field">
+                    <div class="dx-field-label">User Type</div>
+                    <div class="dx-field-value">
+                        <div dx-radio-group="radioGroup.changeLayout"  ng-model="user_type_id"></div>
+                    </div>
+                </div>-->
+            </div>
+            <!--<div id="summary" dx-validation-summary="{ }"></div>-->
+            <ul>
+                <li>
+                    <div id="button" dx-button="{
+                                    text: 'Submit',
+                                    type: 'success',
+                                    class:'btn btn-success btn-lg btn-block',
+                                    height:'40px',
+                                    width:'110px',
+                                    onClick: validateAndSubmit }" >
+
+                    </div>
+                </li>
+                <p style="border-bottom: solid 1px #ccc;"></p>
+            </ul>
+        </div>
+        <div class="social">
+            <span><img src="app/assets/Images/f-icon.png" width="43" height="43"  alt=""/></span>
+            <span><img src="app/assets/Images/t-icon.png" width="43" height="43"  alt=""/></span>
+            <img src="app/assets/Images/p-icon.png" width="43" height="43"  alt=""/>
+        </div>
+    </div>
+</div>
+<style>
+/*#check {
+    padding-left: 5px;
+}
+
+#summary {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#button {
+    display: block;
+}*/
+</style>

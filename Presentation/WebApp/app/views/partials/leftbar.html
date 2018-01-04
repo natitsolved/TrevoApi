@@ -1,0 +1,146 @@
+<style>
+	.choose_file{
+		/*position:relative;*/
+		display:inline-block;
+		/*border-radius:8px;*/
+		border:none;
+		padding: 5px 6px 5px 8px;
+		font: normal 14px Myriad Pro, Verdana, Geneva, sans-serif;
+		color: #fff;
+		margin-top: 2px;
+		/*background:white;*/
+		background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+		width: 90%;
+		height: 20px;
+		position: absolute;
+		bottom: 10px;
+	}
+	.choose_file input[type="file"]{
+		-webkit-appearance:none;
+		position:absolute;
+		top:0; left:0;
+		opacity:0;
+	}
+</style>
+<div ng-controller="leftbarCtrl">
+
+	<div class="left-panel phone-hide">
+		<div class="profile-img" style="position: relative;" ng-if="urlParam == '/profile'">
+			<!--<img src="app/assets/Images/default-profile.png" width="100%" height="auto"  alt=""/>-->
+			<img src="{{userImagePath}}" width="100%" height="auto"  alt=""/>
+			<!--<form>
+			<input type="file" id="i_file" name="file" ng-file-select="onFileSelect($files)" />
+				</form>-->
+			<div class="choose_file">
+				<span style="margin-left: 20px;">Change Image</span>
+				<form>
+				<input type="file" id="i_file" name="file" class="form-control" ng-file-select="onFileSelect($files)" />
+				</form>
+			</div>
+		</div>
+		<ul>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.setting"><i class="fa fa-gear"></i> Setting</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.changepassword"><i class="fa fa-lock"></i> Change Password</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.profile"><i class="fa fa-user"></i> Change Profile</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.allvoucher"><i class="fa fa-user"></i> Voucher</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.bidvoucher"><i class="fa fa-user"></i> Resell Voucher</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.swapvoucher"><i class="fa fa-user"></i> Voucher For Swap</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.giftvoucherlist"><i class="fa fa-user"></i> Gift Voucher</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.mymembership"><i class="fa fa-user"></i> My Membership</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.mypoints"><i class="fa fa-user"></i> My Points</a></li>
+			<li ng-if="loggedindetails.user_type_id == 2"><a ui-sref="frontend.myevent"><i class="fa fa-user"></i> My Events</a></li>
+			<!--<li ui-sref-active="active"><a ui-sref="frontend.allvoucher"><i class="fa fa-user"></i> Resell Voucher</a></li>-->
+
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantprofile"><i class="fa fa-user"></i> Change Profile</a></li>
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantaddmember"><i class="fa fa-user"></i> Add Member</a></li>-->
+			<!--<li ng-if="loggedindetails.user_type_id == 3" ng-if="user_details.merchant_id"><a href="http://118.137.201.43:8181/Member_Ship/MasterData/member_master_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i>Manage Member</a></li>-->
+			<li ng-if="loggedindetails.user_type_id == 3" ng-if="user_details.merchant_id"><a href="http://52.39.33.188/Member_Ship/MasterData/member_master_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i>Manage Member</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.purchasedmembrship"><i class="fa fa-user"></i>Purchased Membership</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantmenu"><i class="fa fa-user"></i> All Menu</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantmenucategories"><i class="fa fa-user"></i>Categories</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantrestaurants"><i class="fa fa-user"></i> Restaurants</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantoutlets"><i class="fa fa-user"></i> Outlets</a></li>
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantevent"><i class="fa fa-user"></i> Events</a></li>-->
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantmembershiplist"><i class="fa fa-user"></i> Memberships</a></li>-->
+			<li ng-if="loggedindetails.user_type_id == 3"><a href="http://52.39.33.188/Member_Ship/MasterData/Promotion_Header_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><i class="fa fa-user"></i> Memberships</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantnews"><i class="fa fa-user"></i> News</a></li>
+
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantoffer"><i class="fa fa-user"></i> My Offer</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantaddoffer"><i class="fa fa-user"></i> Add Offer</a></li>-->
+
+		</ul>
+
+		<div class="owl-carousel1 new-Promo">
+			<div class="item pro-item" ng-repeat="featuredCatDetail in ads">
+				<a ui-sref="frontend.advertisedetail({advertiseId:featuredCatDetail.id})"><img src="{{featuredCatDetail.image_url}}"  alt=""/></a>
+				<div class="desc" ng-if="featuredCatDetail.title">
+					<h3 class="ng-binding">{{featuredCatDetail.title}}</h3>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="m-left-panel2 tablet-hide">
+		<div class="profile-img" ng-if="urlParam == '/profile'">
+			<img src="{{userImagePath}}" width="100%" height="auto"  alt=""/>
+		</div>
+		<ul ng-if="loggedindetails.user_type_id == 2">
+			<!--<li><a ui-sref="frontend.setting">
+            <h1><img src="app/assets/Images/setting.png" width="35" height="35"  alt=""/></h1> 
+            Setting</a>
+            </li>
+			<li><a ui-sref="frontend.changepassword">
+            <h1><img src="app/assets/Images/c-pass.png" width="35" height="35"  alt=""/></h1> 
+            Change Password</a>
+            </li>
+			<li><a ui-sref="frontend.profile"><h1><img src="app/assets/Images/cp.png" width="35" height="35"  alt=""/></h1> Change Profile</a></li>
+			<li><a ui-sref="frontend.allvoucher"><h1><img src="app/assets/Images/v.png" width="35" height="35"  alt=""/></h1> Voucher</a></li>
+			<li><a ui-sref="frontend.bidvoucher"><h1><img src="app/assets/Images/rv.png" width="35" height="35"  alt=""/></h1> Resell Voucher</a></li>
+			<li><a ui-sref="frontend.giftvoucherlist"><h1><img src="app/assets/Images/gv.png" width="35" height="35"  alt=""/></h1> Gift Voucher</a></li>
+			<li><a ui-sref="frontend.mymembership"><h1><img src="app/assets/Images/setting.png" width="35" height="35"  alt=""/></h1> My Membership</a></li>
+			<li><a ui-sref="frontend.mypoints"><h1><img src="app/assets/Images/setting.png" width="35" height="35"  alt=""/></h1> My Points</a></li>
+			<li><a ui-sref="frontend.myevent"><h1><img src="app/assets/Images/setting.png" width="35" height="35"  alt=""/></h1> My Events</a></li>-->
+
+			<li><a ui-sref="frontend.setting">
+				<h1><img src="{{allicons[24].image_url}}" width="35" height="35"  alt=""/></h1>
+				Setting</a>
+			</li>
+			<li><a ui-sref="frontend.changepassword">
+				<h1><img src="{{allicons[23].image_url}}" width="35" height="35"  alt=""/></h1>
+				Change Password</a>
+			</li>
+			<li><a ui-sref="frontend.profile"><h1><img src="{{allicons[22].image_url}}" width="35" height="35"  alt=""/></h1> Change Profile</a></li>
+			<li><a ui-sref="frontend.allvoucher"><h1><img src="{{allicons[21].image_url}}" width="35" height="35"  alt=""/></h1> Voucher</a></li>
+			<li><a ui-sref="frontend.bidvoucher"><h1><img src="{{allicons[20].image_url}}" width="35" height="35"  alt=""/></h1> Resell Voucher</a></li>
+			<li><a ui-sref="frontend.swapvoucher"><h1><img src="{{allicons[19].image_url}}" width="35" height="35"  alt=""/></h1> Voucher For Swap</a></li>
+			<li><a ui-sref="frontend.giftvoucherlist"><h1><img src="{{allicons[18].image_url}}" width="35" height="35"  alt=""/></h1> Gift Voucher</a></li>
+			<li><a ui-sref="frontend.mymembership"><h1><img src="{{allicons[17].image_url}}" width="35" height="35"  alt=""/></h1> My Membership</a></li>
+			<li><a ui-sref="frontend.mypoints"><h1><img src="{{allicons[16].image_url}}" width="35" height="35"  alt=""/></h1> My Points</a></li>
+			<li><a ui-sref="frontend.myevent"><h1><img src="{{allicons[15].image_url}}" width="35" height="35"  alt=""/></h1> My Events</a></li>
+
+			<!--<li ui-sref-active="active"><a ui-sref="frontend.allvoucher"><i class="fa fa-user"></i> Resell Voucher</a></li>-->
+		</ul>
+		<ul ng-if="loggedindetails.user_type_id == 3">
+		  <li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantprofile"><h1><img src="{{allicons[22].image_url}}" width="35" height="35"  alt=""/></h1> Change Profile</a></li>
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantaddmember"><i class="fa fa-user"></i> Add Member</a></li>-->
+			<li ng-if="loggedindetails.user_type_id == 3" ng-if="user_details.merchant_id"><a href="http://52.39.33.188/Member_Ship/MasterData/member_master_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><h1><img src="{{allicons[7].image_url}}" width="35" height="35"  alt=""/></h1>Manage Member</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.purchasedmembrship"><h1><img src="{{allicons[6].image_url}}" width="35" height="35"  alt=""/></h1>Purchased Membership</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantmenu"><h1><img src="{{allicons[5].image_url}}" width="35" height="35"  alt=""/></h1> All Menu</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantmenucategories"><h1><img src="{{allicons[4].image_url}}" width="35" height="35"  alt=""/></h1>Categories</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantrestaurants"><h1><img src="{{allicons[3].image_url}}" width="35" height="35"  alt=""/></h1> Restaurants</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantoutlets"><h1><img src="{{allicons[2].image_url}}" width="35" height="35"  alt=""/></h1> Outlets</a></li>
+			<!--<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantevent"><i class="fa fa-user"></i> Events</a></li>-->
+			<li ng-if="loggedindetails.user_type_id == 3"><a href="http://52.39.33.188/Member_Ship/MasterData/Promotion_Header_mfoodgate.aspx?MerchantID={{user_details.merchant_id}}"><h1><img src="{{allicons[1].image_url}}" width="35" height="35"  alt=""/></h1> Memberships</a></li>
+			<li ng-if="loggedindetails.user_type_id == 3"><a ui-sref="frontend.merchantnews"><h1><img src="{{allicons[0].image_url}}" width="35" height="35"  alt=""/></h1> News</a></li>
+			<!--<li><a ui-sref="frontend.allvoucher"><i class="fa fa-user"></i> My Offer</a></li>-->
+			<!--<li><a ui-sref="frontend.bidvoucher"><i class="fa fa-user"></i> Resell Voucher</a></li>
+			<li><a ui-sref="frontend.mypoints"><i class="fa fa-user"></i> My Points</a></li>-->
+			<!--<li ui-sref-active="active"><a ui-sref="frontend.allvoucher"><i class="fa fa-user"></i> Resell Voucher</a></li>-->
+		</ul>
+	</div>
+</div>
+<style>
+	.new-Promo .pro-item{ height:  154px !important;}
+</style>
+

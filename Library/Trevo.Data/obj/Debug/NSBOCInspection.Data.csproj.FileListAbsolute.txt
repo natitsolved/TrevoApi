@@ -1,0 +1,12 @@
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\NSBOCInspection.Data.dll.config
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\NSBOCInspection.Data.dll
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\NSBOCInspection.Data.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\EntityFramework.dll
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\NSBOCInspection.Core.dll
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\NSBOCInspection.Core.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\EntityFramework.xml
+E:\Pragati\new\Lib\NSBOCInspection.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Pragati\new\Lib\NSBOCInspection.Data\obj\Debug\NSBOCInspection.Data.csprojResolveAssemblyReference.cache
+E:\Pragati\new\Lib\NSBOCInspection.Data\obj\Debug\NSBOCInspection.Data.dll
+E:\Pragati\new\Lib\NSBOCInspection.Data\obj\Debug\NSBOCInspection.Data.pdb

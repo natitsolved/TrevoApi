@@ -1,0 +1,38 @@
+﻿
+
+<div style="position: relative;" class="col-md-4">
+
+    <div class="chat-list">
+        <h1>Recent Chat</h1>
+        <div id="content-1" class="content mCustomScrollbar">
+            <ul ng-if="recentPatientList">
+                <li ng-repeat="x in recentPatientList track by $index">
+                    <div class="chat-item">
+                        <!--<div class="img-bx">
+                            <img ng-src="{{x.ImagePath}}" alt="" />
+                        </div>-->
+                        <a href="javascript:void(0)" ng-click="makeReipient(x.Email,x.Id)">
+                            <div class="txt-bx">
+                                <h3>{{x.Email}} <span>{{x.Date | date :"shortTime"}}</span></h3>
+                                <!--<p>{{x.Email}}</p>-->
+                                <p>{{x.Message}}</p>
+                                <p ng-show="x.IsRead==0" style="color:#de2424">New Message</p>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+
+            </ul>
+            <ul ng-if="!recentPatientList">
+                <li>
+                    <div class="txt-bx">
+                        <h3>No recent chat</h3>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>

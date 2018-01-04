@@ -1,0 +1,36 @@
+
+<footer class="section-footer phone-hide" ng-controller="footerCtrl">
+	<div class="container">
+		<div class="footer-top">
+			<ul>
+				<li>
+					<h1>Download Aplikasi</h1>
+					<p>
+						<span ng-if="sociallinks.google_store_link"><a href="{{sociallinks.google_store_link}}" target="_blank"><img src="app/assets/Images/google-btn.png" width="101" height="34"  alt=""/></a></span>
+						<span ng-if="sociallinks.app_store_link"><a href="{{sociallinks.app_store_link}}" target="_blank"><img src="app/assets/Images/app-btn.png" width="99" height="32"  alt=""/></a></span>
+					</p>
+				</li>
+				<li>
+					<h1>Follow Us</h1>
+					<p>
+						<span ng-if="sociallinks.facebook_url"><a href="{{sociallinks.facebook_url}}" target="_blank"> <img src="app/assets/Images/s-icon-1.png" width="51" height="51"  alt=""/></a></span>
+						<span ng-if="sociallinks.twitter_url"><a href="{{sociallinks.twitter_url}}" target="_blank"> <img src="app/assets/Images/s-icon-2.png" width="51" height="51"  alt=""/></a></span>
+						<span ng-if="sociallinks.pininterest_url"><a href="{{sociallinks.pininterest_url}}" target="_blank"> <img src="app/assets/Images/s-icon-3.png" width="51" height="51"  alt=""/></a></span>
+						<span ng-if="sociallinks.youtube_url"><a href="{{sociallinks.youtube_url}}" target="_blank"> <img src="app/assets/Images/s-icon-4.png" width="51" height="51"  alt=""/></a></span>
+					</p>
+				</li>
+				<li>
+					<h1>Get in Touch</h1>
+					<p><img src="app/assets/Images/get.png" width="340" height="44"  alt=""/></p>
+				</li>
+			</ul>
+		</div>
+		<div class="dx-clearfix"></div>
+		<div class="footer-mid"><p><a ui-sref="frontend.index" >Home</a>   |   <a ui-sref="frontend.voucher">Voucher</a>   |   <a ui-sref="frontend.membership">Membership</a>   |   <a ui-sref="frontend.marketplace">Marketplace</a>   |   <a ui-sref="frontend.news">News</a> </p></div>
+		<div class="footer-bottom"><p><a ui-sref="frontend.cms({ pageName: 'contact-us' })">Contact Us</a>   |   <a ui-sref="frontend.cms({ pageName: 'about-us' })">About Us</a>   |   <a ui-sref="frontend.cms({ pageName: 'faq' })">FAQ</a>   |   <a ui-sref="frontend.cms({ pageName: 'terms' })">Terms of Use</a>   |   <a ui-sref="frontend.cms({ pageName: 'privacy' })">Privacy Policy</a>                                                                                                                     <span>© 2015 mFoodGate. All rights reserved.</span>
+		</p>
+		</div>
+	</div>
+</footer>
+
+<div class="dx-gesture-cover" style="pointer-events: none;"></div>

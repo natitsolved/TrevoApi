@@ -1,0 +1,5 @@
+E:\Pragati\new\Lib\NSBOCInspection.Core\bin\Debug\NSBOCInspection.Core.dll
+E:\Pragati\new\Lib\NSBOCInspection.Core\bin\Debug\NSBOCInspection.Core.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Core\obj\Debug\NSBOCInspection.Core.csprojResolveAssemblyReference.cache
+E:\Pragati\new\Lib\NSBOCInspection.Core\obj\Debug\NSBOCInspection.Core.dll
+E:\Pragati\new\Lib\NSBOCInspection.Core\obj\Debug\NSBOCInspection.Core.pdb

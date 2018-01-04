@@ -1,0 +1,80 @@
+<div ng-controller="cmsAddCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                CMS
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+
+        <section class="content">
+            <div class="row">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+
+                    </div>
+
+                    <form  name="cmsForm">
+                        <div class="box-body">
+                            <div class="col-xs-12">
+                                <div class="form-group" show-errors>
+                                    <label for="Title" ng-class="{ 'has-error': cmsForm.Title.$invalid }">Title</label>
+
+                                    <input type="text" class="form-control" name="Title" ng-model="item.Title" id="Title"   required >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="PageContent" ng-class="{ 'has-error': cmsForm.PageContent.$invalid }">Page Content</label>
+                                      <summernote  ng-model="item.PageContent" id="PageContent" ></summernote>
+
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputMetaDescription" ng-class="{ 'has-error': cmsForm.MetaDescription.$invalid }">Meta Description</label>
+                                    <input type="text" class="form-control" name="MetaDescription" ng-model="item.MetaDescription" id="exampleInputMetaDescription" >
+                                </div>
+                                <div class="form-group" show-errors>
+                                    <label for="exampleInputMetaKeyWord" ng-class="{ 'has-error': cmsForm.MetaKeyWord.$invalid }">Meta KeyWord</label>
+                                    <input type="text" class="form-control" name="MetaKeyWord" ng-model="item.MetaKeyWord" id="exampleInputMetaKeyWord" >
+                                </div>
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="IsActive" ng-model="item.IsActive" > Is Active
+                                    </label>
+                                </div>
+                                <div class="checkbox" >
+                                    <label>
+                                        <input type="checkbox" name="IsDeleted" ng-model="item.IsDeleted" > Is Deleted
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" ng-click="saveCms()" style="margin-left: 394px;">Submit</button>
+                            &nbsp;
+                            <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            <br>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+
+<style>
+    textarea{
+        width: 100%;
+        height: 118px;
+    }
+</style>

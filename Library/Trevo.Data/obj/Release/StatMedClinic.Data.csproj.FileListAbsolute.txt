@@ -1,0 +1,12 @@
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\NSBOCInspection.Data.dll.config
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\NSBOCInspection.Data.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\NSBOCInspection.Data.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\EntityFramework.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\NSBOCInspection.Core.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\EntityFramework.xml
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\obj\Release\StatMedClinic.Data.csprojResolveAssemblyReference.cache
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\obj\Release\NSBOCInspection.Data.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Data\obj\Release\NSBOCInspection.Data.pdb

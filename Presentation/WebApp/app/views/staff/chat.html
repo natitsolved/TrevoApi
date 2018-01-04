@@ -1,0 +1,134 @@
+﻿
+
+<div ng-controller="chatCtrl">
+
+
+    <div class="col-md-6">
+        <div class="row">
+            
+
+            <div class="col-md-12">
+                <div class="content-box-header">
+                    <div class="panel-title">{{dataDynamic}}</div>
+
+
+                </div>
+                <div style="position:relative;" class="content-box-large box-with-header">
+                    <ol class="chat">
+                     
+                        <li class="other" ng-repeat="y in recieverChatList track by $index">
+                            <div class="avatar"><img ng-src="{{imgSrc}}" alt="" /></div>
+                            <div class="msg">
+                                <!--<p>Hola!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>-->
+                                <p style="display:none">{{y.message}}</p>
+                                <p ng-bind-html="y.message |emoticons"></p>
+                                <time>{{y.time | date :"shortTime"}}</time>
+                            </div>
+                        </li>
+                        <li class="self" ng-repeat="x in senderChatList track by $index">
+                            <div class="avatar"><img ng-src="{{loggedindetails.imagePath}}" alt="" /></div>
+                            <div class="msg">
+                                <!--<p>Puff...</p>
+                                <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Mejor otro día</p>-->
+                                <p  style="display:none;">{{x.message}}</p>
+                                <p ng-bind-html="x.message |emoticons"></p>
+                                <time>{{x.time | date: "shortTime"}}</time>
+                            </div>
+                            
+                        </li>
+                        
+                        <!--<div class="day">Yesterday</div>
+
+                        <li class="other">
+                            <div class="avatar"><img src="images/user.jpg" alt="" /></div>
+                            <div class="msg">
+                                <p>Hola!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                                <time>20:17</time>
+                            </div>
+                        </li>
+                        <li class="self">
+                            <div class="avatar"><img src="images/user2.jpg" alt="" /></div>
+                            <div class="msg">
+                                <p>Puff...</p>
+                                <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Mejor otro día</p>
+                                <time>20:18</time>
+                            </div>
+                        </li>
+
+                        <li class="other">
+                            <div class="avatar"><img src="images/user.jpg" alt="" /></div>
+                            <div class="msg">
+                                <p>Hola!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                                <time>{{otherTime}}</time>
+                            </div>
+                        </li>
+                        <li class="self">
+                            <div class="avatar"><img src="images/user2.jpg" alt="" /></div>
+                            <div class="msg">
+                                <p>Puff...</p>
+                                <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Mejor otro día</p>
+                                <time>{{selfTime}}</time>
+                            </div>
+                        </li>-->
+                        <div style="border: solid 1px #CCC; overflow: hidden; padding:10px; background:#fff; margin-top:15px; border-radius: 5px;">
+                            <input style="width:76%;float:left; margin-top:0" class="textarea" type="text" placeholder="Type here and press enter to send!" ng-model="messageToBeSent" ng-keyup="sendMessageByEnter($event)" />
+
+                            <button style="width:14%;margin-left:12px; height:49px; margin-top:0; font-size:20px; background:#9AD3DA; border: solid 1px #9AD3DA;" type="button" class="btn btn-warning btn-flat" ng-click="sendMessage()" id="btnSend" ng-disabled="isDisable"><i class="fa fa-paper-plane"></i></button>
+                            <!--<a href="javascript:void(0);" class="btn" ng-click="toggleShow()" style="float: right;margin-top: -38px;font-size: 20px;"><i class="fa fa-smile-o"></i></a>-->
+                        </div>
+                       
+                    </ol>
+                  <ul>
+                      <li ng-repeat="test in testEmojis">
+                         <a href="javascript:void(0)" ng-click="addEmojitToMsg(test.class);"><i class="{{test.class}}"></i></a> 
+                      </li>
+                  </ul>
+                   
+                    <div ng-show="isShowEmoticon">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="~#tab1"><i class="fa fa-smile-o"></i></a></li>
+                            <li><a data-toggle="tab" href="~#tab2">Animals & Flowers</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="tab1" class="tab-pane fade in active" style="min-height:12px;">
+                                <ul style="list-style-type:none;height:70px;overflow-y:scroll;">
+                                    <!--<li ng-repeat="emoji in smileyEmojis">
+                                        <p style="display:none">{{emoji.class}}</p>
+                                        <a href="javascript:void(0)"> <p ng-bind-html="emoji.class |emoticons" ng-click="addEmojitToMsg(this);"></p></a>
+                                        
+                                    </li>-->
+                                    <li ng-repeat="emoji in smileyEmojis">
+                                        <a href="javascript:void(0)" ng-click="addEmojitToMsg(emoji.class);"><i class="{{emoji.class}}"></i></a> 
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div id="tab2" class="tab-pane fade">
+                                <ul style="list-style-type:none;height:70px;overflow-y:scroll">
+                                    <!--<li  ng-repeat="emoji in aniFlowerEmojis">
+                                        <p style="display:none">{{emoji.class}}</p>
+                                        <a href="javascript:void(0)"> <p ng-bind-html="emoji.class |emoticons" ng-click="addEmojitToMsg(this);"></p></a>
+                                    </li>-->
+                                    <li ng-repeat="emoji in aniFlowerEmojis">
+                                        <a href="javascript:void(0)" ng-click="addEmojitToMsg(emoji.class);"><i class="{{emoji.class}}"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-ng-include="'app/views/staff/partials/recentPatientList.html'"></div>
+</div>
+

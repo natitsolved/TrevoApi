@@ -1,0 +1,48 @@
+<div ng-controller="settingsCtrl">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+
+
+                <div ng-if="categoryView == 'edit'">
+                    <header class="panel-heading">
+                        Edit Settings
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" ng-submit="saveSetting()">
+                            <div class="form-group">
+                                <label for="exampleInputNewPromo">New Promo Days</label>
+                                <input type="text" placeholder="New Promo Days"  id="exampleInputNewPromo" ng-model="item.new_promo_days" class="form-control">
+                                <input type="hidden"  ng-model="item.id" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputLastDayPromo">Last Day Promo</label>
+                                <input type="text" placeholder="New Promo Days"  id="exampleInputLastDayPromo" ng-model="item.last_day_promo" class="form-control">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputHotPromo">Hot Sell Promo Percentage(%)</label>
+                                <input type="text" placeholder="Hot Sell Promo Percentage(%)"  id="exampleInputHotPromo" ng-model="item.hot_percentage" class="form-control">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputSpecialPromo">Special Promo Title</label>
+                                <input type="text" placeholder="Special Promo Title"  id="exampleInputSpecialPromo" ng-model="item.special_promo_title" class="form-control">
+
+                            </div>
+
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>

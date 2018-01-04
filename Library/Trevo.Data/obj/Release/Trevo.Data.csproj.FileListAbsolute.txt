@@ -1,0 +1,12 @@
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\Trevo.Data.dll.config
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\Trevo.Data.dll
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\Trevo.Data.pdb
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\EntityFramework.dll
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\Trevo.Core.dll
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\Trevo.Core.pdb
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\EntityFramework.xml
+D:\Projects\Trevo\Library\Trevo.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\Trevo\Library\Trevo.Data\obj\Release\Trevo.Data.csprojResolveAssemblyReference.cache
+D:\Projects\Trevo\Library\Trevo.Data\obj\Release\Trevo.Data.dll
+D:\Projects\Trevo\Library\Trevo.Data\obj\Release\Trevo.Data.pdb

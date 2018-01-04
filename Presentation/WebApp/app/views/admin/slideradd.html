@@ -1,0 +1,52 @@
+﻿<div ng-controller="sliderCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                Slider
+            </h1>
+
+            <div ncy-breadcrumb></div>
+        </section>
+
+
+        <section class="content">
+            <div class="row">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+
+                    </div>
+
+                    <form name="userForm" ng-submit="save();">
+                        <div class="box-body">
+                            <div class="col-xs-12">
+                                <div class="form-group" show-errors>
+
+                                    <input type="file" style="display: inline-block;" class="button button-block btn_sky_blue" ngf-select ngf-max-size="2MB" ng-model="item.picFile" name="item.picFile" ngf-pattern="'.png,.jpg,.gif,.jpeg'" capture="camera" accept="image/*" onchange="angular.element(this).scope().setFile(this)" id="item.picFile" >
+                                </div>
+                             
+                                <img ng-src="{{image_source}}" style="height:150px;width:200px;" ng-show="isShow">
+                            </div>
+
+
+                        </div>
+                        <!-- /.box-body -->
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary" style="margin-left: 394px;">Submit</button>
+                            &nbsp;
+                            <button type="button" class="btn btn-warning" ng-click="backFunction()">Back</button>
+                            <br>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+    </div>
+    <div style="clear:both;"></div>
+</div>

@@ -1,0 +1,142 @@
+<div ng-controller="userCtrl">
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <div ng-if="userView == 'view'">
+                <header class="panel-heading">
+                    User
+                        <span class="tools pull-right">
+                            <a class="fa fa-chevron-down" href="javascript:;"></a>
+                            <a class="fa fa-times" href="javascript:;"></a>
+                         </span>
+                </header>
+                <div class="panel-body">
+                    <div class="btn-group">
+                        <!--<button class="btn btn-primary" id="editable-sample_new" ng-click ="addCategory()">
+                            Add Icon
+                        </button>-->
+                    </div>
+                    <!--<table id="usersList" class="table  table-hover general-table">-->
+                        <!--<thead>-->
+                        <!--<tr>-->
+
+                            <!--<th class="hidden-phone">Name</th>-->
+                            <!--<th class="hidden-phone">Email</th>-->
+                            <!--<th class="hidden-phone">Phone</th>-->
+
+                            <!--<th>Action</th>-->
+
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+
+                        <!--<tr ng-if="allusers" ng-repeat="item in allusers">-->
+
+                            <!--<td >{{item.name}}</td>-->
+                            <!--<td >{{item.mailid}}</td>-->
+                            <!--<td >{{item.phoneno}}</td>-->
+                            <!--<td >-->
+                                <!--<a class="btn btn-default delete" href="javascript:;" ng-click="deleteIcon(item._id)"  >Delete</a></td>-->
+                                 <!-- -->
+
+                        <!--</tr>-->
+                        <!--<tr ng-if="!allusers">-->
+                            <!--<td colspan="4">No Result Found</td>-->
+                        <!--</tr>-->
+
+
+                        <!--</tbody>-->
+                    <!--</table>-->
+                   <!-- <table class="table  table-hover myTable">
+                        <thead>
+                        <tr>
+                            <th class="EmpId"> <a href="#" ng-click="sort('EmpId',$event)">Name
+                                <span class="{{Header[0]}}"></span>
+                            </a>
+
+                            </th>
+                            <th class="name"> <a ng-click="sort('name')" href="#"> Email
+                                <span class="{{Header[1]}}"></span></a>
+                            </th>
+                            <th class="Email"> <a ng-click="sort('Email')" href="#"> Phone
+                                <span class="{{Header[2]}}"></span></a>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="item in ItemsByPage[currentPage] | orderBy:columnToOrder:reverse">
+                            <td>{{item.name}}</td>
+                            <td>{{item.mailid}}</td>
+                            <td>{{item.phoneno}}</td>
+                        </tr>
+                        </tbody>
+                    </table> -->
+                    <h4></h4>
+                    <table id="usertable"
+                           data-toggle="table"
+                           data-url="http://107.170.152.166:8080/api/user"
+                           data-height="900"
+                           data-side-pagination="server"
+                           data-pagination="true"
+                           data-page-list="[5, 10, 20, 50, 100, 200]"
+                           data-search="true"
+                           data-show-refresh="true"
+                           data-show-toggle="true"
+                           data-show-columns="true">
+                        <thead>
+                        <tr>
+                            <th data-field="uid" data-sortable="true">User ID</th>
+                            <th data-field="thumbnail" data-formatter="imageFormatter">Pic</th>
+                            <th data-field="name" data-sortable="true">Name</th>
+                            <th data-field="username" data-sortable="true">UserName</th>
+                            <th data-field="email" data-sortable="true">Email</th>
+                            <th data-field="id" data-formatter="anchorFormatter">Details</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                </div>
+
+                <div ng-if="userView == 'edit'">
+                    <header class="panel-heading">
+                        User
+                    </header>
+                    <div class="panel-body">
+                        <form role="form" ng-submit="saveUser()" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label for="exampleInputName">Title</label>
+                                <input type="text" placeholder="Enter Title"  id="exampleInputName" ng-model="item.title" class="form-control">
+                                <input type="hidden"  ng-model="item.id" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Image</label>
+                                <input type="file"  id="image" ng-model="item.image" base-sixty-four-input>
+                                <img src="{{item.image_url}}" ng-if="item.image_url" width="50">
+                            </div>
+
+
+
+                            <!--<div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" id="exampleInputFile">
+                                <p class="help-block">Example block-level help text here.</p>
+                            </div>-->
+                            <!--<div class="checkbox">
+                                <label>
+                                    <input type="checkbox" ng-model="item.is_active" ng-true-value="1" ng-false-value="0"> Is Active
+                                </label>
+                            </div>-->
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-danger" type="button" ng-click="cancelIcon()">Cancel</button>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</div>

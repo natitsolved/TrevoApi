@@ -1,0 +1,62 @@
+﻿<div ng-controller="appointMentCtrl">
+
+
+
+
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box-header">
+                    <div class="pull-left">
+                        <h3 class="box-title">Appointment List</h3>
+                    </div>
+                    <div class="pull-right">
+                        <a ui-sref="staff.manageAppointMent({appointmentId:'add'})" class="btn btn-primary">Add Appointment</a>
+                    </div>
+
+                </div>
+
+                <div class="box-body">
+                    <table id="appointmentList" class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+
+                                <th>Doctor Name</th>
+                                <th>Patient name</th>
+                                <th>Status</th>
+                                <th>Appointment Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr ng-if="appointmentList" ng-repeat="item in appointmentList">
+
+                                <td>{{item.DocName | uppercase}}</td>
+                                <td>{{item.PatientName | uppercase}}</td>
+                                <td>{{item.AppointMentStatus }}</td>
+                                <td>{{item.AppointmentDate }}</td>
+                                <td>
+                                    <a ui-sref="staff.manageAppointMent({appointmentId:item.AppointMentID})">
+                                        <i class="fa fa-2x fa-pencil-square-o" aria-hidden="true"></i>
+                                    </a>
+                                    <a href="javascript:;" ng-click="deleteInfo(item.AppointMentID)">
+                                        <i class="fa fa-2x fa-trash" aria-hidden="true"></i>
+                                    </a>
+                                </td>
+                               
+
+                            </tr>
+                            <tr ng-if="!appointmentList">
+                                <td colspan="3">No Result Found</td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-ng-include="'app/views/staff/partials/recentPatientList.html'"></div>
+</div>

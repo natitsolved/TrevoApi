@@ -1,0 +1,80 @@
+﻿<div ng-controller="healthPckgCtrl">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                Slider
+            </h1>
+            <div ncy-breadcrumb></div>
+        </section>
+
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <div class="pull-left">
+                                <h3 class="box-title">Health Packages List</h3>
+                            </div>
+                            <div class="pull-right">
+                                <a ui-sref="admin.healthPckgAdd({PackageID:'add'})" class="btn btn-primary">Add Health Package </a>
+                            </div>
+
+                        </div>
+
+                        <div class="box-body">
+                            <table id="sliderList" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+
+                                        <th>Package Type</th>
+                                        <th>Description</th>
+                                        <th>Price</th>
+                                        <th>Is Active</th>
+                                        <th>Image Name</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr ng-if="healthPckgList" ng-repeat="item in healthPckgList">
+
+                                        <td>{{item.PackageType}}</td>
+                                        <td>{{item.Description}}</td>
+                                        <td>{{item.Price}}</td>
+                                        <td>{{item.IsActive}}</td>
+                                        <td>{{item.ImageName}}</td>
+                                        <td>
+                                            <a ui-sref="admin.healthPckgAdd({PackageID:item.PackageID})">
+                                                <i class="fa fa-2x fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:;" ng-click="deletePckg(item.PackageID)">
+                                                <i class="fa fa-2x fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                    <tr ng-if="!healthPckgList">
+                                        <td colspan="3">No Result Found</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+
+                </div>
+                <!-- /.col -->
+            </div>
+            <!-- /.row -->
+        </section>
+
+
+    </div>
+
+</div>

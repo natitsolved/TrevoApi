@@ -1,0 +1,77 @@
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.dll
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.pdb
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.dll
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.dll
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.dll
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.pdb
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.pdb
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.xml
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.dll
+E:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.pdb
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.xml
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.dll
+C:\Users\krishnendu\Desktop\05.10.2016\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.dll
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.dll
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.dll
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.dll
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.pdb
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.pdb
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.xml
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.dll
+D:\Pragati\Projects\statmedclinic\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.dll
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.dll
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.dll
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.dll
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.pdb
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.pdb
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.xml
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.dll
+D:\Pragati\Projects\StatMedClinicTFS\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\EntityFramework.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.pdb
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\bin\Debug\EntityFramework.xml
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.dll
+C:\Users\nits sougata\Desktop\StatMedClinic\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\EntityFramework.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.pdb
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\EntityFramework.xml
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.dll
+D:\Pragati\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.pdb
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.dll
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Services.pdb
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.dll
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.dll
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\EntityFramework.dll
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Core.pdb
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\NSBOCInspection.Data.pdb
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\bin\Debug\EntityFramework.xml
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\StatMedClinic.Services.csprojResolveAssemblyReference.cache
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.dll
+D:\Projects\StatMedClinicFinalTFS\Library\StatMedClinic.Services\obj\Debug\NSBOCInspection.Services.pdb

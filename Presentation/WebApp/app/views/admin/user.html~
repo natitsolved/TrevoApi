@@ -1,0 +1,65 @@
+<div ng-controller="userCtrl as sc">
+
+
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+
+            <h1>
+                User
+            </h1>
+            <!--<ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li><a href="#">{{title}}</a></li>
+                <li class="active">Data tables</li>
+            </ol>-->
+            <div ncy-breadcrumb></div>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box" ng-if="viewUser == 'view'">
+                        <div class="box-header">
+                            <div class="pull-left">
+                                <h3 class="box-title">User List</h3>
+                            </div>
+                            <div class="pull-right">
+                            <a ui-sref="admin.useradd({userId:'add'})" class="btn btn-primary" >Add User</a>
+                            </div>
+{{userList}}
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+
+                            <!--<table datatable="" dt-options="showCase.dtOptions" dt-instance="showCase.dtInstance" dt-columns="showCase.dtColumns" class="table table-striped table-bordered"></table>-->
+                            <table id="userlist"  class="table table-striped table-bordered" datatable="ng" dt-options="sc.dtOptions" dt-column-defs="sc.dtColumnDefs">
+                                <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Action</th>
+
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr  ng-repeat="user in userList">
+                                    <td>{{user._id}}</td>
+                                    <td>{{user.name}}</td>
+                                    <td>
+                                        <button type="button" ng-click="modifyPerson($index)" class="btn btn-warning"><i class="fa fa-edit"></i></button>
+                                        <button type="button" ng-click="removePerson($index)" class="btn btn-danger"><i class="fa fa-trash-o"></i></button>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+</div>

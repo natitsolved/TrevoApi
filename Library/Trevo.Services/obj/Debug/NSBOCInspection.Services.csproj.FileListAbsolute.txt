@@ -1,0 +1,11 @@
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.dll
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Services.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.dll
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.dll
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.dll
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Core.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\NSBOCInspection.Data.pdb
+E:\Pragati\new\Lib\NSBOCInspection.Services\bin\Debug\EntityFramework.xml
+E:\Pragati\new\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.csprojResolveAssemblyReference.cache
+E:\Pragati\new\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.dll
+E:\Pragati\new\Lib\NSBOCInspection.Services\obj\Debug\NSBOCInspection.Services.pdb

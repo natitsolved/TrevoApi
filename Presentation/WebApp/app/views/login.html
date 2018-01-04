@@ -1,0 +1,178 @@
+<!--Web header-->
+<div ng-controller="loginCtrl">
+    <div class="container">
+        <div class="login-section phone-hide">
+            <div class="popup"
+                 dx-popup="popupOptions">
+                <div data-options="dxTemplate: { name:'info' }">
+                    <p>
+                      You have item in the cart from previous login. Please choose one:-
+                    </p>
+                    <div style="display: inline-block;margin:10px auto;">
+                        <div id="combine_btn" dx-button="{
+                                    text: 'Combine',
+                                    type: 'success',
+                                    onClick: combineCart }" style="float:left;margin:0px 5px;"></div>
+                        <div id="old_btn" dx-button="{
+                                    text: 'Keep Old',
+                                    type: 'success',
+                                    onClick: keepOldCart }" style="float:left;margin:0px 5px;"></div>
+                        <div id="current_btn" dx-button="{
+                                    text: 'Keep Current',
+                                    type: 'success',
+                                onClick: keepNewCart }" style="float:left;margin:0px 5px;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-box"><img src="app/assets/Images/login-bg.jpg" width="634" height="467"  alt=""/></div>
+            <div class="login-box">
+                <h2>Sign In</h2>
+                <!--<form ng-submit="Login()">
+                <ul>
+                    <li>
+                        <label>Email:</label>
+                        <input type="text" ng-model="data.email" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your email">
+                    </li>
+                    <li>
+                        <label>Password:</label>
+                        <input type="text" ng-model="data.password" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your password">
+                    </li>
+                    <li>
+                        <p><input type="checkbox"> Remember me
+                            <span style="float: right;"><a href="">Forgot your password?</a></span>
+                        </p>
+
+                    </li>
+                    <li><button type="submit" class="btn btn-success btn-lg btn-block">Login</button></li>
+                    <p style="border-bottom: solid 1px #ccc;"></p>
+                </ul>
+                </form>-->
+                <style>
+                    /*.dx-overlay-content.dx-resizable {*/
+                        /*position: relative;*/
+                        /*width: 220px !important;*/
+                        /*color: red;*/
+                    /*}*/
+                </style>
+                <div class="form">
+                        <div class="dx-fieldset">
+                                <div class="dx-field">
+                                    <div class="dx-field-label">Email</div>
+                                    <div class="dx-field-value">
+                                        <div dx-text-box="textBox.email" dx-validator="emailValidationRules" ng-model="email"></div>
+                                    </div>
+                                </div>
+
+                                <div class="dx-field">
+                                    <div class="dx-field-label">Password</div>
+                                    <div class="dx-field-value">
+                                        <div dx-text-box="textBox.password" dx-validator="passwordValidationRules" ng-model="password"></div>
+                                    </div>
+                                </div>
+                        </div>
+
+                        <!--<div id="summary" dx-validation-summary="{ }"></div>-->
+                    <ul>
+                        <li>
+                            <div id="button1" dx-button="{
+                                text: 'Login',
+                                type: 'success',
+
+                                onClick: validateAndSubmit }" ></div>
+                            <!--<button type="submit" class="btn btn-success btn-lg btn-block" ng-click="validateAndSubmit()">Login</button>-->
+                        </li>
+                        <p style="border-bottom: solid 1px #ccc;"></p>
+                    </ul>
+                </div>
+
+                <div class="social">
+                    <span><img src="app/assets/Images/f-icon.png" width="43" height="43"  alt="" ng-click="fbsignuser()"/></span>
+                    <span><img src="app/assets/Images/g-icon.png" width="43" height="43"  alt="" /></span>
+                    <!--<img src="app/assets/Images/p-icon.png" width="43" height="43"  alt=""/>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Login area end Web-->
+    <div class="login-box tablet-hide">
+        <div class="popup"
+             dx-popup="popupOptions">
+            <div data-options="dxTemplate: { name:'info' }">
+                <p>
+                    You have item in the cart from previous login. Please choose one:-
+                </p>
+                <div style="display: inline-block;margin:10px auto;">
+                    <div id="combine_btn" dx-button="{
+                                    text: 'Combine',
+                                    type: 'success',
+                                    onClick: combineCart }" style="float:left;margin:0px 5px;"></div>
+                    <div id="old_btn" dx-button="{
+                                    text: 'Keep Old',
+                                    type: 'success',
+                                    onClick: keepOldCart }" style="float:left;margin:0px 5px;"></div>
+                    <div id="current_btn" dx-button="{
+                                    text: 'Keep Current',
+                                    type: 'success',
+                                onClick: keepNewCart }" style="float:left;margin:0px 5px;"></div>
+                </div>
+            </div>
+        </div>
+        <h2>Sign In</h2>
+        <!--<ul>
+            <li>
+                <label>Email:</label>
+                <input type="text" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your email">
+            </li>
+            <li>
+                <label>Password:</label>
+                <input type="text" class="form-control ng-pristine ng-valid ng-valid-required ng-touched" placeholder="Enter your password">
+            </li>
+            <li>
+                <p><input type="checkbox"> Remember me                   <span style="float: right;"><a href="">Forgot your password?</a></span></p>
+
+            </li>
+            <li><button type="submit" class="btn btn-success btn-lg btn-block">Login</button></li>
+            <p style="border-bottom: solid 1px #ccc;"></p>
+        </ul>-->
+        <div class="form">
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">Email</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.email" dx-validator="emailValidationRules" ng-model="email"></div>
+                    </div>
+                </div>
+
+                <div class="dx-field">
+                    <div class="dx-field-label">Password</div>
+                    <div class="dx-field-value">
+                        <div dx-text-box="textBox.password" dx-validator="passwordValidationRules" ng-model="password"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div id="summary" dx-validation-summary="{ }"></div>-->
+            <ul>
+                <li>
+            <div id="button" dx-button="{
+                                text: 'Login',
+                                type: 'success',
+                                class:'btn btn-success btn-lg btn-block',
+                                height:'40px',
+                                width:'90px',
+
+                                onClick: validateAndSubmit }" ></div>
+                </li>
+                <p style="border-bottom: solid 1px #ccc;"></p>
+                </ul>
+        </div>
+
+
+        <div class="social">
+            <span><img src="app/assets/Images/f-icon.png" width="43" height="43"  alt="" ng-click="fbsignuser()"/></span>
+            <span><img src="app/assets/Images/g-icon.png" width="43" height="43"  alt="" /></span>
+            <!--<img src="app/assets/Images/p-icon.png" width="43" height="43"  alt=""/>-->
+        </div>
+    </div>
+</div>
